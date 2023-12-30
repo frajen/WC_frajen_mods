@@ -1,0 +1,6 @@
+{
+  "name": "Boy",
+  "author": "Zozma",
+  "group": "FF6",
+  "description": "sprite, sprite palette from Sprite DB 1.2"
+}

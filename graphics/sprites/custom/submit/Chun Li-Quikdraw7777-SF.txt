@@ -1,0 +1,7 @@
+{
+  "name": "Chun Li",
+  "author": "Quikdraw7777",
+  "group": "SF",
+  "description": "sprite, sprite palette by Quikdraw7777"
+}
+

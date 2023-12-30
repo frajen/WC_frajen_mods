@@ -1,0 +1,6 @@
+{
+  "name": "Pig",
+  "author": "XolarDark",
+  "group": "FF4",
+  "description": "sprite, sprite palette from Sprite DB 1.2, Missing dead and riding poses."
+}

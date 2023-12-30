@@ -1,0 +1,7 @@
+{
+  "name": "Cammy",
+  "author": "Quikdraw7777",
+  "group": "SF",
+  "description": "sprite, sprite palette by Quikdraw7777 (also works well with palette 1)"
+}
+

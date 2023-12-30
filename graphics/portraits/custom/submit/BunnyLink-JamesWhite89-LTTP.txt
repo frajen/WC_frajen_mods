@@ -1,0 +1,6 @@
+{
+  "name": "Bunny Link",
+  "author": "JamesWhite89",
+  "group": "LTTP",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

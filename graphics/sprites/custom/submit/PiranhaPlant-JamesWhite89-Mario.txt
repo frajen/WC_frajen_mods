@@ -1,0 +1,7 @@
+{
+  "name": "Piranha Plant",
+  "author": "JamesWhite89",
+  "group": "Mario",
+  "description": "sprite, sprite palette by JamesWhite89 originally submitted for Beyond Chaos"
+}
+

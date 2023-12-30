@@ -1,0 +1,6 @@
+{
+  "name": "Beatrix",
+  "author": "xeblon",
+  "group": "FF9",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

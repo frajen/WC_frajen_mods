@@ -1,0 +1,6 @@
+{
+  "name": "Katarin",
+  "author": "Zozma",
+  "group": "FF6",
+  "description": "sprite, sprite palette from Sprite DB 1.2, 11/26/2015, forum thread: https://www.ff6hacking.com/forums/thread-3016.html"
+}

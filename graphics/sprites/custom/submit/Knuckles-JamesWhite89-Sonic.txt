@@ -1,0 +1,7 @@
+{
+  "name": "Knuckles",
+  "author": "JamesWhite89",
+  "group": "Sonic",
+  "description": "sprite, sprite palette by JamesWhite89 originally submitted for Beyond Chaos"
+}
+

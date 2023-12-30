@@ -1,0 +1,6 @@
+{
+  "name": "Beatrix",
+  "author": "Poco Loco",
+  "group": "FF9",
+  "description": "sprite, sprite palette from Sprite DB 1.2"
+}

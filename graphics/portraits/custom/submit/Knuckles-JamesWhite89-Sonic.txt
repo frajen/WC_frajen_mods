@@ -1,0 +1,6 @@
+{
+  "name": "Knuckles",
+  "author": "JamesWhite89",
+  "group": "Sonic",
+  "description": "portrait customly made by JamesWhite89"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Boy",
+  "author": "Zozma",
+  "group": "FF6",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

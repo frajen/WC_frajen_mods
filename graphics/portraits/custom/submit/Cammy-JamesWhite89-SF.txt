@@ -1,0 +1,6 @@
+{
+  "name": "Cammy",
+  "author": "JamesWhite89",
+  "group": "SF",
+  "description": "portrait made and referenced from SSF2 by JamesWhite89"
+}

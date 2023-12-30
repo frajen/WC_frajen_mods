@@ -1,0 +1,6 @@
+{
+  "name": "Dancer",
+  "author": "Poco Loco, sutebenukun",
+  "group": "FF6",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

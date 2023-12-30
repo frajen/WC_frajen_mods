@@ -1,0 +1,1641 @@
+Version   1.2.2
+Generated 2023-01-31 10:41:35
+Input     f.smc
+Output    f_wc_ozl5lrehl95e.smc
+Log       f_wc_ozl5lrehl95e.txt
+Seed      ozl5lrehl95e
+Flags     -open -cgdepth 2 -sl -oa 2.2.2.2.6.6.4.9.9 -ob 3.1.1.2.9.9.4.12.12 -oc 30.8.8.1.1.11.8 -od 59.1.1.11.31 -sc1 gau -sc2 random -sc3 terra -sc4 edgar -sal -eu -csrp 80 125 -fst -brl -slr 3 5 -lmprp 75 125 -lel -srr 25 35 -rnl -rnc -sdr 1 2 -das -dda -dns -sch -scis -com 99999999999999999999989899 -fscom 050605 -rec1 22 -rec2 29 -rec3 15 -rec4 27 -rec5 7 -rec6 10 -gauoff -xpm 3 -mpm 5 -gpm 5 -nxppd -lsced 2 -hmced 2 -xgced 2 -ase 2 -msl 40 -sed -bbs -drloc shuffle -stloc mix -be -bnu -res -fer 0 -escr 100 -dgne -wnz -mmnu -cmd -esr 2 5 -ebr 82 -emprp 75 125 -nm1 random -rnl1 -rns1 -nm2 random -rnl2 -rns2 -nmmi -mmprp 75 125 -gp 5000 -smc 3 -sto 1 -ieor 33 -ieror 33 -csb 3 14 -mca -stra -saw -sisr 20 -sprp 75 125 -sdm 4 -npi -sebr -sesb -ccsr 20 -cms -name aaaaa.LOCKE.CYAN.SHADOW.EDGAR.SABIN.CELES.STRAGO.RELM.SETZER.MOG.GAU.GOGO.UMARO -frw -wmhc -cor -crr -crvr 50 60 -crm -ari -anca -adeh -nmc -noshoes -nu -nfps -fs -fe -fvd -fr -fj -fbs -fedc -fc -ond -rr -etn
+Hash      Banon, Interceptor, Conductor, Old Woman
+Debug Mode
+
+--------------------------------------------------------- Game ---------------------------------------------------------
+
+Settings
+    Mode                       Open World
+    Seed                       ozl5lrehl95e
+    Spoiler Log                True
+
+------------------------------------------------------ Objectives ------------------------------------------------------
+
+    A Unlock Final Kefka                                        B Unlock KT Skip
+      Characters               6-6                                Characters               9-9
+      Espers                   9-9                                Espers                   12-12
+    Conditions Required        2-2                              Conditions Required        1-1
+
+    C Learn SwdTechs           8-8                              D Magitek Upgrade
+      Check                    Doma Dream Awaken                  Check                    Magitek Factory Finish
+    Conditions Required        1-1                              Conditions Required        1-1
+
+-------------------------------------------------------- Party ---------------------------------------------------------
+
+Starting Party                                              Characters
+    Start Character            Gau                              Start Average Level        True
+    Start Character            Random                           Start Level                3
+    Start Character            Terra                            Start Naked                False
+    Start Character            Edgar                            Equipable Umaro            True
+                                                                Character Stats            80-125%
+SwdTechs                                                        Swap initial stats         False
+    Fast SwdTech               True                             Start w/ultimates          False
+    Everyone Learns            False                            Character Stats            80-125%
+                                                                Force Start Lvls           False
+Blitzes                                                         Exclude from Avg Calc      False
+    Bum Rush Last              True
+    Everyone Learns            False                        Commands
+                                                                Morph                      Random
+Lores                                                           Steal                      Random
+    Start Lores                Random 3-5                       SwdTech                    Random
+    MP                         Random Percent 75-125%           Throw                      Random
+    Everyone Learns            True                             Tools                      Random
+    L.x Spells                 Original                         Blitz                      Random
+                                                                Runic                      Random
+Rages                                                           Lore                       Random
+    Start Rages                Random 25-35                     Sketch                     Random
+    No Leap                    True                             Slot                       Random
+    No Charm                   True                             Dance                      Random Unique
+    Start Rages Tiered         False                            Rage                       Random Unique
+                                                                Leap                       Random
+Dances
+    Start Dances               Random 1-2                       Shuffle Commands           False
+    Shuffle Abilities          True                             Forced cmd 1               Steal
+    Display Abilities          True                             Forced cmd 2               Capture
+    No Stumble                 True                             Forced cmd 3               Steal
+    Everyone Learns            False                            Random Exclude             Jump
+                                                                Random Exclude             MagiTek
+Steal                                                           Random Exclude             Slot
+    Chances                    Higher                           Random Exclude             Shock
+                                                                Random Exclude             SwdTech
+Sketch/Control                                                  Random Exclude             Blitz
+    Sketch Ability             Original                         Gau offense                True
+    Sketch Accuracy            100%
+    Sketch Stats               Character
+
+    Control Ability            Original
+    Control Stats              Character
+
+-------------------------------------------------------- Battle --------------------------------------------------------
+
+Experience, Magic Points, Gold                              Scaling
+    Experience Multiplier      3                                Level Scaling              Characters + Espers + Dragons
+    Magic Points Multiplier    5                                Level Scaling Factor       2
+    Gold Multiplier            5                                HP/MP Scaling              Characters + Espers + Dragons
+    No Exp Party Divide        True                             HP/MP Scaling Factor       2
+                                                                Exp/GP Scaling             Characters + Espers + Dragons
+Bosses                                                          Exp/GP Scaling Factor      2
+    Boss Battles               Shuffle                          Ability Scaling            Element
+    Dragons                    Shuffle                          Ability Scaling Factor     2
+    Statues                    Mix                              Max Scale Level            40
+    Shuffle/Random Phunbaba 3  False                            Scale Eight Dragons        True
+    Normalize & Distort Stats  False                            Scale Final Battles        False
+    Boss Experience            True
+    No Undead                  True                         Encounters
+    Marshal Keep Lobos         False                            Random Encounters          Shuffle
+    Fast Enemies               False                            Fixed Encounters           Random
+    Easy Boss Buff             False                            Boss Percent               0%
+                                                                Escapable                  100%
+Boss AI
+    Doom Gaze No Escape        True
+    Wrexsoul No Zinger         True
+    MagiMaster No Ultima       True
+    Chadarnook More Demon      True
+
+-------------------------------------------------------- Magic ---------------------------------------------------------
+
+Espers                                                      Natural Magic
+    Starting Espers            0-0                              Natural Magic              Random
+    Spells                     Random 2-5                       Randomize Levels           True
+    Bonuses                    Random                           Randomize Spells           True
+    Bonus Chance               82%                              Natural Magic              Random
+    MP                         Random Percent 75-125%           Randomize Levels           True
+    Equipable                  All                              Randomize Spells           True
+    Multi Summon               False                            Menu Indicator             True
+
+Misc. Magic
+    MP                         Random Percent 75-125%
+
+-------------------------------------------------------- Items ---------------------------------------------------------
+
+Starting Gold/Items                                         Shops
+    Start Gold                 5000                             Inventory                  Shuffle + Random
+    Start Moogle Charms        3                                Random Percent             20%
+    Start Sprint Shoes         0                                Price                      Random Percent 75-125%
+    Start Warp Stones          0                                Sell Fraction              1/2
+    Start Fenix Downs          0                                Dried Meat                 4
+    Start Tools                1                                No Priceless Items         True
+                                                                No Breakable Rods          False
+Items                                                           Expensive Rods             True
+    Equipable                  Original + Random 33%            No Elemental Shields       False
+    Equipable Relics           Original + Random 33%            No Super Balls             False
+    Cursed Shield Battles      3-14                             Expensive Balls            True
+    Moogle Charm All           True                             No Exp. Eggs               False
+    SwdTech Runic All          True                             No Illuminas               False
+    Stronger Atma Weapon       True                             No good items              False
+    Ultimate Items             False                            Max shop count             8
+    Teach Spells               None
+    Stat Boosts                None                         Chests
+    Random Drop/Steal %        0                                Contents                   Shuffle + Random
+    Random Drop/Steal Var      0                                Random Percent             20%
+    Adjusted item desc         False                            Monsters-In-A-Box Shuffled True
+
+------------------------------------------------------- Graphics -------------------------------------------------------
+
+Sprite Palettes                                             Character Customization
+    Palette 0                  Original 0                       TERRA  -> aaaaa            Terra
+    Palette 1                  Original 1                                                  Terra
+    Palette 2                  Original 2                                                  Palette 2
+    Palette 3                  Original 3                       LOCKE  -> LOCKE            Locke
+    Palette 4                  Original 4                                                  Locke
+    Palette 5                  Original 5                                                  Palette 1
+    Palette 6                  Original 6                       CYAN   -> CYAN             Cyan
+                                                                                           Cyan
+Other Portraits & Sprites                                                                  Palette 4
+    Soldier                    Soldier                          SHADOW -> SHADOW           Shadow
+                               Palette 1                                                   Shadow
+    Imp                        Imp                                                         Palette 4
+                               Imp                              EDGAR  -> EDGAR            Edgar
+                               Palette 0                                                   Edgar
+    Esper Terra                General Leo                                                 Palette 0
+                               Palette 6                        SABIN  -> SABIN            Sabin
+    Merchant                   Banon-Duncan                                                Sabin
+                               Palette 1                                                   Palette 0
+    Ghost                      Esper Terra                      CELES  -> CELES            Celes
+                               Palette 0                                                   Celes
+    Kefka                      Merchant                                                    Palette 0
+                               Palette 3                        STRAGO -> STRAGO           Strago
+                                                                                           Strago
+Other Graphics                                                                             Palette 3
+    Remove Flashes             Worst                            RELM   -> RELM             Relm
+    World Minimap              High Contrast                                               Relm
+                                                                                           Palette 3
+                                                                SETZER -> SETZER           Setzer
+                                                                                           Setzer
+                                                                                           Palette 4
+                                                                MOG    -> MOG              Mog
+                                                                                           Mog
+                                                                                           Palette 5
+                                                                GAU    -> GAU              Gau
+                                                                                           Gau
+                                                                                           Palette 3
+                                                                GOGO   -> GOGO             Gogo
+                                                                                           Gogo
+                                                                                           Palette 3
+                                                                UMARO  -> UMARO            Umaro
+                                                                                           Umaro
+                                                                                           Palette 5
+
+-------------------------------------------------------- Other ---------------------------------------------------------
+
+Coliseum                                                    Challenges
+    Opponents                  Random                           No Moogle Charms           True
+    Rewards                    Random                           No Exp Eggs                False
+    Rewards Visible            50-60                            No Illuminas               False
+    No Exp. Eggs               False                            No Sprint Shoes            True
+    No Illuminas               False                            No Free Paladin Shields    True
+                                                                No Free Characters/Espers  False
+Auction House                                                   Permadeath                 False
+    Randomize Items            True                             Ultima                     N/A
+    No Chocobo/Airship         True                             Remove Learnable Spells
+    Door Esper Hint            True                                                        Ultima
+                                                                1 Of Logic                 False
+Misc.                                                           Door rando                 False
+    Movement                   AUTO_SPRINT
+    Original Name Display      True                         Bug Fixes
+    Random RNG                 True                             Sketch                     True
+    Random Clock               False                            Evade                      True
+    Scan All                   False                            Vanish/Doom                True
+    Warp All                   False                            Retort                     True
+    Event Timers               None                             Jump                       True
+    Y NPC                      None                             Boss Skip                  True
+    NPC Tips                   False                            Enemy Damage Counter       True
+    Shop Y Details             False                            Capture                    True
+    Improved Item Display      False
+    More Warp                  False
+    Location Tiering           False
+    Hold Anything              False
+
+-------------------------------------------------------- Events --------------------------------------------------------
+Ancient Castle                 Unicorn
+Auction House                  Bahamut (10,000), Kirin (20,000)
+    Cherub Down    -> Tao Robe     (10,000, WOB, multiple)
+    Cure Ring      -> Ice Shld     (20,000, WOB, multiple)
+    Hero Ring      -> Gem Box      (50,000, WOR, single)
+    Zephyr Cape    -> Shadow Edge  (10,000, WOR, single)
+Baren Falls                    Snow Muffler
+    Rizopas        -> Wrexsoul
+Burning House                  Phoenix
+    FlameEater     -> Doom Gaze
+Collapsing House               Thunder Shld
+Daryl's Tomb                   Odin
+    Dullahan       -> Tentacles
+Doma WOB                       Aura Lance
+    Leader         -> Chadarnook
+Doma WOR                       ZoneSeek, SETZER, Flame Shld
+    Stooges        -> Air Force
+    Wrexsoul       -> AtmaWeapon
+Doom Gaze                      Ragnarok
+    Doom Gaze      -> Hidon
+Ebot's Rock                    Siren
+    Hidon          -> Ultros 1
+8 Dragons                      Offering, Aegis Shld, Aura Lance, Magus Rod, Force Armor, Genji Glove, Gem Box, Ice Shld
+    Ice Dragon     -> Skull Drgn
+    Storm Drgn     -> White Drgn
+    Dirt Drgn      -> Storm Drgn
+    Gold Drgn      -> Ice Dragon
+    Skull Drgn     -> Blue Drgn
+    Blue Drgn      -> Gold Drgn
+    Red Dragon     -> Dirt Drgn
+    White Drgn     -> Red Dragon
+Esper Mountain                 Shiva
+    Ultros 3       -> Umaro
+Fanatic's Tower                CELES, Snow Muffler
+    MagiMaster     -> Ultros 3
+Figaro Castle WOB              Bismark
+Figaro Castle WOR              Aegis Shld
+    Tentacles      -> Kefka (Narshe)
+Floating Continent             UMARO, Palidor, GOGO
+    Ultros/Chupon  -> Stooges
+    Air Force      -> Number 128
+    AtmaWeapon     -> Rizopas
+    Nerapa         -> Cranes
+Gau Father House               Cat Hood
+Imperial Camp                  RELM
+Kefka's Tower                  Snow Muffler
+    Atma           -> GhostTrain
+    Inferno        -> Phunbaba 4
+    Guardian       -> Ultros 2
+    Doom           -> Doom
+    Goddess        -> Ifrit/Shiva
+    Poltrgeist     -> FlameEater
+Kohlingen                      Golem
+Lete River                     Sraphim
+    Ultros 1       -> Tritoch
+Lone Wolf                      Ramuh, BehemothSuit
+Magitek Factory                Maduin, Stray, SHADOW
+    Ifrit/Shiva    -> Nerapa
+    Number 024     -> Whelk
+    Number 128     -> Guardian
+    Cranes         -> Leader
+Mobliz WOB                    
+    Tintinabar     -> Enhancer
+                   -> 174, 430, 3417, 1138, 1275
+Mobliz WOR                     Crusader
+    Phunbaba 4     -> Vargas
+Mt. Kolts                      Alexandr
+    Vargas         -> Marshal
+Mt. Zozo                       Phantom
+Narshe Battle                  Ice Shld
+    Kefka (Narshe) -> Dullahan
+Narshe Moogle Defense          Raiden
+    Marshal        -> Dadaluma
+Narshe WOR                     Cat Hood, Minerva
+    Cursed Shield 256 -> 7
+Opera House                    CYAN
+    Ultros 2       -> Ultros/Chupon
+Owzer Mansion                  Marvel Shoes
+    Chadarnook     -> TunnelArmr
+Phantom Train                  SABIN
+    GhostTrain     -> Inferno
+Phoenix Cave                   Tritoch
+Sealed Gate                    Ifrit
+Serpent Trench                 ValiantKnife
+South Figaro                   Fenrir
+South Figaro Cave              Shoat
+    TunnelArmr     -> Atma
+Start                          GAU, MOG, aaaaa, EDGAR
+Tritoch                        Terrato
+    Tritoch        -> SrBehemoth
+Tzen                           Offering (38,752 WOB, 37,332 WOR)
+Umaro's Cave                   Magus Rod
+    Umaro          -> MagiMaster
+Veldt                          STRAGO
+Veldt Cave WOR                 Ice Shld
+    SrBehemoth     -> Poltrgeist
+Whelk                          Starlet
+    Whelk          -> Goddess
+Zone Eater                     Carbunkl
+Zozo                           LOCKE
+    Dadaluma       -> Number 024
+
+------------------------------------------------------- Commands -------------------------------------------------------
+    Morph                      Steal
+    Steal                      Dance
+    SwdTech                    Health
+    Throw                      Morph
+    Tools                      Rage
+    Blitz                      Sketch
+    Runic                      Throw
+    Lore                       Capture
+    Sketch                     Runic
+    Slot                       Throw
+    Dance                      Capture
+    Rage                       Control
+    Leap                       Steal
+
+---------------------------------------------------- Natural Magic -----------------------------------------------------
+MOG                                                         CYAN
+    Slow 2                     4                                Cure                       1
+    Quick                      11                               Regen                      2
+    Drain                      14                               Rflect                     20
+    Meteor                     16                               Stop                       31
+    Doom                       22                               Bolt                       33
+    Ice 3                      24                               Ice 3                      37
+    Bolt 2                     28                               Rasp                       47
+    Ice 2                      31                               Slow 2                     56
+    Break                      46                               Pearl                      63
+    Muddle                     48                               Scan                       72
+    Flare                      53                               Antdot                     73
+    Cure 3                     55                               Fire 3                     81
+    Float                      68                               Flare                      94
+    Antdot                     82                               Muddle                     96
+    Fire                       88                               Quick                      97
+    Demi                       96                               Cure 2                     98
+
+------------------------------------------------------ Equipable -------------------------------------------------------
+Dirk                   aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO RELM   SETZER MOG           GOGO
+MithrilKnife           aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO RELM   SETZER MOG           GOGO
+Guardian                      LOCKE         SHADOW        SABIN  CELES                                            UMARO
+Air Lancet                    LOCKE                       SABIN         STRAGO RELM                 GAU    GOGO
+ThiefKnife                    LOCKE  CYAN   SHADOW EDGAR                STRAGO
+Assassin                      LOCKE         SHADOW                             RELM   SETZER
+Man Eater              aaaaa  LOCKE         SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER        GAU    GOGO
+SwordBreaker                  LOCKE         SHADOW EDGAR                STRAGO RELM   SETZER MOG           GOGO   UMARO
+Graedus                aaaaa  LOCKE         SHADOW EDGAR         CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+ValiantKnife                  LOCKE         SHADOW EDGAR  SABIN                              MOG                  UMARO
+MithrilBlade           aaaaa  LOCKE  CYAN          EDGAR         CELES         RELM   SETZER
+RegalCutlass           aaaaa  LOCKE                EDGAR         CELES         RELM          MOG           GOGO
+Rune Edge              aaaaa                SHADOW EDGAR         CELES  STRAGO        SETZER
+Flame Sabre            aaaaa  LOCKE  CYAN          EDGAR  SABIN  CELES  STRAGO                                    UMARO
+Blizzard               aaaaa  LOCKE                EDGAR  SABIN  CELES                       MOG    GAU    GOGO   UMARO
+ThunderBlade           aaaaa  LOCKE         SHADOW EDGAR  SABIN  CELES                       MOG           GOGO
+Epee                   aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES                                     GOGO
+Break Blade            aaaaa                       EDGAR         CELES  STRAGO RELM                        GOGO
+Drainer                aaaaa  LOCKE  CYAN          EDGAR  SABIN  CELES  STRAGO                             GOGO   UMARO
+Enhancer               aaaaa         CYAN          EDGAR         CELES  STRAGO                      GAU           UMARO
+Crystal                aaaaa         CYAN          EDGAR         CELES  STRAGO               MOG                  UMARO
+Falchion               aaaaa  LOCKE                EDGAR  SABIN  CELES                SETZER               GOGO   UMARO
+Soul Sabre             aaaaa  LOCKE                EDGAR         CELES                SETZER        GAU    GOGO   UMARO
+Ogre Nix               aaaaa                       EDGAR  SABIN  CELES         RELM          MOG           GOGO   UMARO
+Excalibur              aaaaa  LOCKE                EDGAR         CELES                SETZER               GOGO
+Scimitar               aaaaa  LOCKE  CYAN          EDGAR         CELES  STRAGO                      GAU    GOGO
+Illumina               aaaaa  LOCKE                EDGAR         CELES
+Ragnarok               aaaaa  LOCKE  CYAN          EDGAR         CELES  STRAGO                      GAU
+Atma Weapon            aaaaa  LOCKE  CYAN   SHADOW               CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Mithril Pike           aaaaa  LOCKE                EDGAR                              SETZER MOG
+Trident                       LOCKE         SHADOW EDGAR  SABIN         STRAGO RELM   SETZER MOG    GAU
+Stout Spear            aaaaa                SHADOW EDGAR                STRAGO               MOG           GOGO
+Partisan                                           EDGAR                       RELM   SETZER MOG
+Pearl Lance                                        EDGAR                STRAGO RELM          MOG    GAU    GOGO
+Gold Lance                                  SHADOW EDGAR         CELES  STRAGO RELM          MOG
+Aura Lance             aaaaa                SHADOW EDGAR                              SETZER MOG    GAU
+Imp Halberd            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Imperial                      LOCKE         SHADOW               CELES  STRAGO               MOG    GAU           UMARO
+Kodachi                aaaaa         CYAN   SHADOW EDGAR                              SETZER
+Blossom                       LOCKE         SHADOW                             RELM          MOG           GOGO
+Hardened                      LOCKE  CYAN   SHADOW        SABIN
+Striker                       LOCKE  CYAN   SHADOW               CELES  STRAGO RELM          MOG                  UMARO
+Stunner                                     SHADOW        SABIN  CELES         RELM
+Ashura                               CYAN   SHADOW                             RELM   SETZER
+Kotetsu                aaaaa         CYAN          EDGAR                                                   GOGO
+Forged                               CYAN                                      RELM                 GAU    GOGO
+Tempest                              CYAN                 SABIN  CELES  STRAGO RELM
+Murasame                             CYAN                 SABIN  CELES                       MOG           GOGO
+Aura                          LOCKE  CYAN          EDGAR                STRAGO        SETZER        GAU
+Strato                 aaaaa  LOCKE  CYAN                                                                  GOGO
+Sky Render                           CYAN                                             SETZER MOG    GAU
+Heal Rod               aaaaa         CYAN                               STRAGO RELM   SETZER               GOGO
+Mithril Rod                   LOCKE                       SABIN         STRAGO RELM   SETZER MOG           GOGO
+Fire Rod                                                                STRAGO RELM                        GOGO
+Ice Rod                aaaaa  LOCKE                EDGAR  SABIN  CELES  STRAGO RELM                        GOGO
+Thunder Rod                   LOCKE                              CELES  STRAGO RELM                        GOGO   UMARO
+Poison Rod                           CYAN                               STRAGO RELM          MOG    GAU    GOGO
+Pearl Rod              aaaaa  LOCKE                              CELES  STRAGO RELM   SETZER MOG           GOGO
+Gravity Rod            aaaaa         CYAN                 SABIN         STRAGO RELM   SETZER               GOGO   UMARO
+Punisher                      LOCKE  CYAN                               STRAGO RELM                        GOGO
+Magus Rod              aaaaa                       EDGAR  SABIN         STRAGO RELM                 GAU    GOGO
+Chocobo Brsh                                              SABIN                RELM                 GAU
+DaVinci Brsh           aaaaa         CYAN   SHADOW               CELES  STRAGO RELM          MOG                  UMARO
+Magical Brsh           aaaaa         CYAN                                      RELM                        GOGO
+Rainbow Brsh                  LOCKE         SHADOW        SABIN                RELM   SETZER        GAU    GOGO   UMARO
+Shuriken
+Ninja Star
+Tack Star
+Flail                  aaaaa                                     CELES  STRAGO RELM                        GOGO
+Full Moon              aaaaa  LOCKE                                                          MOG                  UMARO
+Morning Star           aaaaa                                     CELES  STRAGO RELM   SETZER        GAU    GOGO
+Boomerang                     LOCKE  CYAN                                                                  GOGO   UMARO
+Rising Sun                    LOCKE                       SABIN                RELM                 GAU           UMARO
+Hawk Eye                      LOCKE                                                                 GAU
+Bone Club                     LOCKE                                            RELM   SETZER        GAU           UMARO
+Sniper                        LOCKE                                                   SETZER        GAU           UMARO
+Wing Edge                     LOCKE  CYAN                        CELES         RELM   SETZER MOG    GAU           UMARO
+Cards                                       SHADOW EDGAR         CELES         RELM   SETZER               GOGO
+Darts                  aaaaa  LOCKE  CYAN                 SABIN                       SETZER               GOGO
+Doom Darts                           CYAN                 SABIN  CELES  STRAGO        SETZER MOG           GOGO
+Trump                  aaaaa         CYAN   SHADOW        SABIN                       SETZER               GOGO
+Dice                                                      SABIN                       SETZER MOG           GOGO
+Fixed Dice             aaaaa  LOCKE  CYAN   SHADOW                             RELM   SETZER
+MetalKnuckle                  LOCKE  CYAN                 SABIN  CELES  STRAGO        SETZER        GAU
+Mithril Claw                                              SABIN  CELES  STRAGO               MOG    GAU
+Kaiser                 aaaaa                              SABIN         STRAGO RELM   SETZER
+Poison Claw            aaaaa  LOCKE                EDGAR  SABIN                RELM                               UMARO
+Fire Knuckle           aaaaa                              SABIN                RELM                        GOGO
+Dragon Claw            aaaaa         CYAN   SHADOW        SABIN  CELES
+Tiger Fangs                   LOCKE  CYAN                 SABIN  CELES                              GAU
+Buckler                aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Heavy Shld             aaaaa  LOCKE  CYAN          EDGAR         CELES                SETZER MOG    GAU    GOGO
+Mithril Shld           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Gold Shld              aaaaa         CYAN          EDGAR         CELES                SETZER MOG    GAU           UMARO
+Aegis Shld             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Diamond Shld           aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES                SETZER                      UMARO
+Flame Shld             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Ice Shld               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Thunder Shld           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Crystal Shld           aaaaa         CYAN          EDGAR  SABIN  CELES         RELM   SETZER               GOGO   UMARO
+Genji Shld             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+TortoiseShld           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Cursed Shld            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Paladin Shld           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Force Shld             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Leather Hat            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Hair Band              aaaaa         CYAN                 SABIN  CELES         RELM   SETZER               GOGO
+Plumed Hat             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Beret                                              EDGAR         CELES         RELM                               UMARO
+Magus Hat              aaaaa                                     CELES  STRAGO RELM          MOG           GOGO
+Bandana                aaaaa  LOCKE         SHADOW        SABIN  CELES         RELM          MOG    GAU    GOGO
+Iron Helmet            aaaaa  LOCKE  CYAN          EDGAR         CELES                SETZER        GAU
+Coronet                aaaaa                              SABIN                RELM                 GAU
+Bard's Hat             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Green Beret            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Head Band                     LOCKE  CYAN   SHADOW EDGAR  SABIN         STRAGO               MOG    GAU           UMARO
+Mithril Helm           aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO        SETZER        GAU    GOGO   UMARO
+Tiara                  aaaaa  LOCKE  CYAN                 SABIN  CELES         RELM                 GAU
+Gold Helmet            aaaaa         CYAN   SHADOW EDGAR         CELES                       MOG           GOGO
+Tiger Mask                                                SABIN                       SETZER        GAU           UMARO
+Red Cap                aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Mystery Veil           aaaaa  LOCKE  CYAN          EDGAR         CELES  STRAGO RELM   SETZER               GOGO
+Circlet                aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Regal Crown            aaaaa                SHADOW EDGAR  SABIN         STRAGO
+Diamond Helm           aaaaa  LOCKE  CYAN          EDGAR         CELES                SETZER        GAU           UMARO
+Dark Hood                     LOCKE         SHADOW        SABIN                              MOG    GAU    GOGO
+Crystal Helm           aaaaa  LOCKE                EDGAR  SABIN  CELES         RELM   SETZER
+Oath Veil              aaaaa         CYAN          EDGAR         CELES  STRAGO RELM                 GAU    GOGO
+Cat Hood                             CYAN                               STRAGO RELM   SETZER MOG    GAU           UMARO
+Genji Helmet           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Thornlet               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Titanium               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+LeatherArmor           aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Cotton Robe            aaaaa         CYAN                        CELES  STRAGO RELM   SETZER               GOGO
+Kung Fu Suit                  LOCKE         SHADOW EDGAR  SABIN         STRAGO                      GAU           UMARO
+Iron Armor             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO        SETZER MOG
+Silk Robe              aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO RELM          MOG           GOGO
+Mithril Vest           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Ninja Gear                    LOCKE  CYAN   SHADOW        SABIN         STRAGO        SETZER        GAU    GOGO
+White Dress            aaaaa                       EDGAR  SABIN  CELES  STRAGO RELM   SETZER
+Mithril Mail           aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES                SETZER MOG                  UMARO
+Gaia Gear              aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Mirage Vest            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Gold Armor             aaaaa  LOCKE  CYAN          EDGAR         CELES         RELM   SETZER MOG    GAU           UMARO
+Power Sash                    LOCKE  CYAN   SHADOW EDGAR  SABIN                              MOG    GAU    GOGO
+Light Robe                           CYAN   SHADOW        SABIN         STRAGO RELM   SETZER        GAU    GOGO
+Diamond Vest           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Red Jacket                    LOCKE         SHADOW EDGAR  SABIN                RELM                               UMARO
+Force Armor            aaaaa  LOCKE  CYAN          EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG                  UMARO
+DiamondArmor           aaaaa  LOCKE  CYAN          EDGAR         CELES  STRAGO        SETZER        GAU           UMARO
+Dark Gear                     LOCKE         SHADOW EDGAR  SABIN                       SETZER        GAU    GOGO   UMARO
+Tao Robe                                    SHADOW                      STRAGO RELM                        GOGO
+Crystal Mail           aaaaa  LOCKE  CYAN          EDGAR         CELES  STRAGO        SETZER MOG                  UMARO
+Czarina Gown           aaaaa                              SABIN                RELM          MOG    GAU
+Genji Armor            aaaaa  LOCKE  CYAN   SHADOW EDGAR         CELES  STRAGO RELM   SETZER        GAU           UMARO
+Imp's Armor            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Minerva                aaaaa                                     CELES                       MOG
+Tabby Suit             aaaaa         CYAN          EDGAR                STRAGO RELM   SETZER MOG    GAU
+Chocobo Suit           aaaaa                SHADOW EDGAR  SABIN         STRAGO RELM   SETZER MOG           GOGO
+Moogle Suit                                                             STRAGO RELM   SETZER        GAU
+Nutkin Suit                          CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM
+BehemothSuit           aaaaa  LOCKE         SHADOW                      STRAGO RELM   SETZER        GAU    GOGO   UMARO
+Snow Muffler                  LOCKE  CYAN   SHADOW               CELES                       MOG    GAU    GOGO   UMARO
+NoiseBlaster
+Bio Blaster
+Flash
+Chain Saw
+Debilitator
+Drill
+Air Anchor
+AutoCrossbow
+Fire Skean
+Water Edge
+Bolt Edge
+Inviz Edge
+Shadow Edge
+Goggles                aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Star Pendant           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Peace Ring             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Amulet                 aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+White Cape             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Jewel Ring             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Fairy Ring             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Barrier Ring           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+MithrilGlove           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Guard Ring             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+RunningShoes           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Wall Ring              aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Cherub Down            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Cure Ring              aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+True Knight            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+DragoonBoots           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Zephyr Cape            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Czarina Ring           aaaaa  LOCKE         SHADOW EDGAR         CELES         RELM                        GOGO
+Cursed Ring            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Earrings               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Atlas Armlet           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Blizzard Orb                  LOCKE         SHADOW                                    SETZER        GAU           UMARO
+Rage Ring              aaaaa                       EDGAR  SABIN         STRAGO               MOG                  UMARO
+Sneak Ring                    LOCKE  CYAN                 SABIN  CELES                                     GOGO
+Pod Bracelet           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Hero Ring              aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Ribbon                 aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Muscle Belt            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Crystal Orb            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Gold Hairpin           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Economizer             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Thief Glove            aaaaa  LOCKE                       SABIN  CELES  STRAGO               MOG    GAU    GOGO
+Gauntlet               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Genji Glove            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Hyper Wrist            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Offering               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Beads                  aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Black Belt             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Coin Toss                     LOCKE  CYAN          EDGAR  SABIN  CELES                SETZER               GOGO   UMARO
+FakeMustache                  LOCKE         SHADOW                             RELM                        GOGO
+Gem Box                aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO
+Dragon Horn            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Merit Award            aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Memento Ring                                SHADOW                      STRAGO RELM          MOG           GOGO
+Safety Bit             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Relic Ring             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Moogle Charm           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Charm Bangle           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Marvel Shoes           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Back Guard             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Gale Hairpin           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Sniper Sight           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Exp. Egg               aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Tintinabar             aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Sprint Shoes           aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO RELM   SETZER MOG    GAU    GOGO   UMARO
+Rename Card
+Tonic
+Potion
+X-Potion
+Tincture
+Ether
+X-Ether
+Elixir
+Megalixir
+Fenix Down
+Revivify
+Antidote
+Eyedrop
+Soft
+Remedy
+Sleeping Bag
+Tent
+Green Cherry
+Magicite
+Super Ball
+Echo Screen
+Smoke Bomb
+Warp Stone
+Dried Meat
+Empty                  aaaaa  LOCKE  CYAN   SHADOW EDGAR  SABIN  CELES  STRAGO
+
+---------------------- ITEM SPELLS ----------------------
+
+
+---------------------- NEW ITEM STATS ----------------------
+
+
+-------------------------------------------------------- Chests --------------------------------------------------------
+Narshe School
+    Chocobo Suit, X-Potion, MIAB, Green Beret
+
+Narshe Inside WOB
+    Beads, Empty, Elixir, Ice Rod, X-Potion, Ribbon, Ether, Flash, True Knight
+
+Narshe Mines WOB
+    Tincture, Gold Helmet, Tincture
+
+Narshe Mines WOR
+    Pearl Rod, Megalixir, Elixir, Crystal Orb
+
+Figaro Castle
+    Fenix Down, Kotetsu, Magicite, X-Potion
+
+Figaro Castle Basement
+    Break Blade, Kodachi, Potion, DiamondArmor, Air Anchor, DragoonBoots
+
+South Figaro Cave WOB
+    Gravity Rod, Ice Shld, Gold Hairpin
+
+South Figaro Cave WOR
+    Atma Weapon, Rage Ring, Force Shld
+
+South Figaro Outside WOB
+    Fire Knuckle, Ether, Warp Stone, Ether, Fire Rod, Green Cherry, Zephyr Cape, Heal Rod
+
+South Figaro Outside WOR
+    Guardian, Thief Glove, Empty, Drill, Magicite, Ether, X-Potion, Elixir
+
+South Figaro Inside/Basement
+    Chain Saw, Sleeping Bag, Tack Star, Tempest, Marvel Shoes, Air Lancet, Red Cap, X-Potion, X-Ether, Warp Stone, Relic
+    Ring, Force Armor, Tonic, Earrings, Safety Bit
+
+Duncan's House WOB
+    Empty
+
+Mt. Kolts
+    Potion, Magical Brsh, Potion, Magical Brsh, Blizzard Orb, Snow Muffler
+
+Returner's Hideout
+    Red Cap, Magus Hat, Tonic, Snow Muffler, Wing Edge, Tent, Trump, Fire Rod, Hyper Wrist
+
+Imperial Camp
+    Zephyr Cape, Tent, Diamond Helm, MIAB
+
+Doma
+    Fenix Down, Exp. Egg, Genji Helmet, Ether, X-Potion, RegalCutlass
+
+Cyan's Dream Phantom Train
+    Genji Glove, Green Beret, Poison Rod, Magicite
+
+Phantom Train
+    1000 GP, Ribbon, 8000 GP, Elixir, Rising Sun, Hyper Wrist, Ether, MIAB
+
+Mobliz Inside
+    Exp. Egg
+
+Mobliz Bookshelf Room WOR
+    Tack Star
+
+Mobliz Outside WOR
+    Fenix Down
+
+Serpent Trench
+    Flame Sabre, Force Armor
+
+Nikeah
+    Elixir
+
+Kohlingen
+    Tincture, Fairy Ring
+
+Coliseum Owner's House WOB
+    White Cape
+
+Zozo
+    Ice Shld, Empty, Tonic, Fenix Down, 13000 GP, Empty, Flail, Soul Sabre, Crystal Helm
+
+Mt. Zozo
+    Iron Armor, Genji Shld, X-Potion, Ribbon, Tabby Suit, X-Potion
+
+Owzer's Mansion
+    Fenix Down
+
+Owzer's Basement
+    Gold Armor, Ice Rod
+
+Albrook Outside
+    Gauntlet
+
+Albrook Inside
+    Crystal, 18700 GP, Empty, Ribbon
+
+Albrook Dock
+    Ether
+
+Maranda
+    Soft, Potion
+
+Tzen Collapsing House
+    ThiefKnife, Gold Hairpin, MIAB, Force Armor, 500 GP, Tincture, MIAB, Dragon Horn
+
+Magitek Factory
+    Dragon Horn, Hero Ring, X-Potion, Break Blade, X-Potion, Ether, Czarina Gown, Assassin, Empty, Tincture, Cure Ring,
+    ThunderBlade, Aegis Shld
+
+Thamasa Outside
+    Potion, Antidote, Thunder Shld, Cure Ring, Fenix Down
+
+Thamasa Strago's House
+    Antidote
+
+Thamasa Burning House
+    Green Cherry, 5000 GP
+
+Esper Mountain
+    Magicite, Back Guard, Cherub Down, Soft
+
+Imperial Base
+    Elixir, Regal Crown, Tincture, Fixed Dice, Gold Shld, Earrings, Revivify, Beret, Empty, Gold Helmet, Remedy, Fenix
+    Down, Wall Ring
+
+Cave To Sealed Gate
+    Heavy Shld, Elixir, Heal Rod, Tent, Tincture, 8000 GP, Ether, Hero Ring, Nutkin Suit, Memento Ring, Magicite,
+    Elixir, RunningShoes, Crystal Mail
+
+Floating Continent
+    Cursed Ring, X-Potion, Sneak Ring, MIAB
+
+Daryl's Tomb
+    Tonic, ThunderBlade, Czarina Gown, Cat Hood, Magicite, MIAB
+
+Veldt Cave WOR
+    Flame Sabre, MIAB, Elixir
+
+Ancient Cave
+    Tonic, Green Cherry, MIAB, Tincture, Elixir, Elixir, Sleeping Bag, Heal Rod, MIAB, Ogre Nix, Antidote
+
+Phoenix Cave
+    Drill, Fenix Down, Tent, X-Potion, RunningShoes, Flame Sabre, Ether, Zephyr Cape, Rainbow Brsh
+
+Fanatic's Tower
+    X-Potion, Snow Muffler, Barrier Ring, Ether, Snow Muffler, Tent
+
+Zone Eater
+    Mithril Rod, Tonic, Red Jacket, Coin Toss, Empty, Soft, Thunder Shld, Flame Shld, Gauntlet
+
+Umaro's Cave
+    RunningShoes, Empty, MIAB
+
+Kefka's Tower
+    Atma Weapon, Revivify, Thunder Rod, Bone Club, Eyedrop, Fenix Down, Heavy Shld, Gold Hairpin, Ice Shld, Imp's Armor,
+    Tonic, Murasame, Doom Darts, Coronet, Drainer, Rune Edge
+
+-------------------------------------------------------- Spells --------------------------------------------------------
+Fire      4 MP
+Ice       4 MP
+Bolt      7 MP
+Poison    3 MP
+Drain    18 MP
+Fire 2   20 MP
+Ice 2    22 MP
+Bolt 2   18 MP
+Bio      26 MP
+Fire 3   58 MP
+Ice 3    58 MP
+Bolt 3   56 MP
+Break    26 MP
+Doom     38 MP
+Pearl    43 MP
+Flare    37 MP
+Demi     38 MP
+Quartr   55 MP
+X-Zone   52 MP
+Meteor   71 MP
+Ultima   87 MP
+Quake    55 MP
+W Wind   89 MP
+Merton   71 MP
+Scan      2 MP
+Slow      4 MP
+Rasp     12 MP
+Mute      9 MP
+Safe     14 MP
+Sleep     5 MP
+Muddle    8 MP
+Haste    10 MP
+Stop      8 MP
+Bserk    12 MP
+Float    18 MP
+Imp      11 MP
+Rflect   24 MP
+Shell    11 MP
+Vanish   18 MP
+Haste2   28 MP
+Slow 2   27 MP
+Osmose    1 MP
+Warp     17 MP
+Quick   120 MP
+Dispel   30 MP
+Cure      5 MP
+Cure 2   27 MP
+Cure 3   47 MP
+Life     32 MP
+Life 2   66 MP
+Antdot    3 MP
+Remedy   18 MP
+Regen     8 MP
+Life 3   45 MP
+
+-------------------------------------------------------- Lores ---------------------------------------------------------
+ Condemned   22 MP
+ Roulette    12 MP
+ CleanSweep  32 MP
+ Aqua Rake   25 MP
+ Aero        34 MP
+ Blow Fish   52 MP
+ Big Guard   64 MP
+ Revenge     35 MP
+ Pearl Wind  35 MP
+ L.5 Doom    25 MP
+*L.4 Flare   49 MP
+ L.3 Muddle  22 MP
+ Reflect???   0 MP
+*L? Pearl    59 MP
+ Step Mine    1 MP
+ ForceField  20 MP
+*Dischord    67 MP
+ Sour Mouth  33 MP
+ Pep Up       1 MP
+ Rippler     72 MP
+ Stone       16 MP
+ Quasar      59 MP
+ GrandTrain  49 MP
+ Exploder     1 MP
+
+* = Starting Lore
+
+----------------------------------------------------- Start Rages ------------------------------------------------------
+Templar                                                     Dahling
+Whisper                                                     Vomammoth
+Steroidite                                                  Mesosaur
+Stray Cat                                                   Tyranosaur
+Trilium                                                     Harpy
+M-TekArmor                                                  Gilomantis
+Ing                                                         Siegfried
+Buffalax                                                    Lethal Wpn
+Peepers                                                     Repo Man
+Misfit                                                      HadesGigas
+Grenade                                                     Crawler
+EarthGuard                                                  Rhinox
+Insecare                                                    Ralph
+Prussian                                                    WeedFeeder
+Fortis                                                      Toe Cutter
+Tap Dancer                                                  Sky Cap
+                                                            Deep Eye
+                                                            Mag Roader
+                                                            IronHitman
+
+-------------------------------------------------------- Dances --------------------------------------------------------
+ Wind Song                                                  *Forest Suite
+    Plasma                                                      Specter
+    Whump                                                       Sonic Boom
+    Snare                                                       Ice Rabbit
+    Elf Fire                                                    Land Slide
+
+ Desert Aria                                                 Love Sonata
+    Snare                                                       Cave In
+    Snare                                                       Wind Slash
+    Sun Bath                                                    Cokatrice
+    Specter                                                     Wild Bear
+
+ Earth Blues                                                 Water Rondo
+    Snowball                                                    Plasma
+    Kitty                                                       Wind Slash
+    Sand Storm                                                  Wombat
+    Harvester                                                   Antlion
+
+*Dusk Requium                                                Snowman Jazz
+    Sun Bath                                                    Surge
+    Elf Fire                                                    Rage
+    Pois. Frog                                                  Tapir
+    El Nino                                                     Elf Fire
+
+
+* = Starting Dance
+
+-------------------------------------------------------- Espers --------------------------------------------------------
+Ramuh      22 MP                                            Kirin      20 MP
+    Rflect  x16                                                 Float   x4
+    Doom    x5                                                  Osmose  x2
+    Dispel  x15                                                 Doom    x16
+    Remedy  x3                                              MP +30%
+MP +10%                                                     Equipable: All
+Equipable: All
+
+Siren      13 MP                                            Stray      28 MP
+    Ice 3   x4                                                  Haste   x5
+    Warp    x10                                                 Regen   x8
+    Cure    x5                                              Equipable: All
+    Osmose  x4
+Equipable: All
+
+Ifrit      24 MP                                            Shiva      27 MP
+    Slow    x10                                                 W Wind  x5
+    Ice 2   x16                                                 Osmose  x6
+    Life    x16                                                 X-Zone  x7
+Equipable: All                                                  Quartr  x3
+                                                                Warp    x10
+                                                            MAGIC +2
+                                                            Equipable: All
+
+Unicorn    26 MP                                            Maduin     33 MP
+    Bolt 3  x20                                                 Meteor  x2
+    Antdot  x8                                                  Fire 2  x5
+    Break   x20                                                 Life 2  x16
+MAGIC +1                                                        Imp     x10
+Equipable: All                                              HP +50%
+                                                            Equipable: All
+
+Shoat      48 MP                                            Phantom    34 MP
+    Cure 3  x6                                                  Flare   x1
+    Ice 3   x8                                                  Safe    x2
+    Slow    x20                                             Equipable: All
+    Merton  x8
+    Bserk   x3
+STAMINA +2
+Equipable: All
+
+Carbunkl   27 MP                                            Bismark    49 MP
+    Osmose  x16                                                 Float   x8
+    Remedy  x10                                                 Fire    x3
+STAMINA +1                                                      Ice     x15
+Equipable: All                                                  Imp     x10
+                                                            MP +10%
+                                                            Equipable: All
+
+Golem      36 MP                                            ZoneSeek   35 MP
+    Merton  x1                                                  Safe    x6
+    Bolt    x16                                                 Bolt    x4
+    Cure 3  x16                                                 Bolt 2  x10
+Equipable: All                                                  Scan    x2
+                                                                Flare   x7
+                                                            HP +100%
+                                                            Equipable: All
+
+Sraphim    50 MP                                            Palidor    66 MP
+    Ice 3   x3                                                  Stop    x8
+    Cure 3  x8                                                  Rasp    x1
+    Meteor  x2                                                  Life    x2
+Equipable: All                                                  Scan    x5
+                                                                Cure    x20
+                                                            HP +50%
+                                                            Equipable: All
+
+Fenrir     72 MP                                            Tritoch    57 MP
+    Doom    x16                                                 Merton  x15
+    Cure 2  x2                                                  Rflect  x16
+    Pearl   x15                                                 Stop    x4
+    Ice 2   x6                                              SPEED +2
+    Merton  x6                                              Equipable: All
+MAGIC +1
+Equipable: All
+
+Terrato    32 MP                                            Starlet    79 MP
+    Quartr  x16                                                 Dispel  x10
+    Regen   x1                                                  Quartr  x3
+    Imp     x5                                                  Bserk   x15
+    Float   x16                                             MAGIC +2
+STRENGTH +2                                                 Equipable: All
+Equipable: All
+
+Alexandr   71 MP                                            Phoenix   108 MP
+    Fire 2  x4                                                  Ice     x6
+    Flare   x4                                                  Bio     x2
+    Osmose  x2                                                  Cure    x20
+    Drain   x15                                                 X-Zone  x15
+    Life 2  x20                                                 Scan    x6
+Equipable: All                                              Equipable: All
+
+Odin       58 MP                                            Bahamut    83 MP
+    Slow 2  x3                                                  Vanish  x16
+    Break   x15                                                 Imp     x5
+    Cure 2  x8                                                  Slow 2  x2
+    Life 2  x6                                                  Slow    x1
+HP +50%                                                     MP +10%
+Equipable: All                                              Equipable: All
+
+Ragnarok    4 MP                                            Crusader   72 MP
+    Pearl   x5                                                  Quick   x6
+    Float   x2                                                  Float   x16
+    Quick   x5                                                  Fire    x2
+    Osmose  x5                                                  Cure 3  x7
+MP +30%                                                         Flare   x16
+Equipable: All                                              STRENGTH +2
+                                                            Equipable: All
+
+Raiden    100 MP
+    Slow 2  x7
+    Break   x2
+HP +10%
+Equipable: All
+
+* = Starting Esper
+
+-------------------------------------------------------- Shops ---------------------------------------------------------
+South Figaro WOB Weapon                                     South Figaro WOB Armor
+    Epee                       2880                             Bard's Hat                 3270
+    Kotetsu                    736                              Green Beret                2460
+    ThunderBlade               6090                             Gold Helmet                3640
+    Boomerang                  3690                             Gaia Gear                  6600
+    Full Moon                  3100                             Magus Hat                  504
+    Blossom                    3200
+    Magical Brsh               11070
+    Mithril Pike               919
+
+South Figaro WOB Relic                                      South Figaro WOB Item
+    Wall Ring                  4740                             Fenix Down                 490
+    Tintinabar                 3210                             Potion                     372
+    White Cape                 3900                             Tent                       1344
+    Earrings                   3800                             Tincture                   1290
+    DragoonBoots               7290                             Revivify                   348
+    Cursed Ring                1130                             Echo Screen                142
+    Memento Ring               9240                             Tonic                      51
+    Zephyr Cape                5600                             Flash                      870
+
+Mobliz WOB Weapon                                           Mobliz WOB Armor
+    Striker                    21360                            Oath Veil                  10169
+    Forged                     1008                             Diamond Vest               11400
+    Shadow Edge                380                              Head Band                  1280
+    Man Eater                  13420                            Iron Armor                 819
+                                                                Plumed Hat                 295
+                                                                Tiger Mask                 2925
+
+Mobliz WOB Relic                                            Mobliz WOB Item
+    Czarina Ring               2760                             Fenix Down                 490
+    True Knight                980                              Potion                     372
+    White Cape                 3900                             Tent                       1344
+                                                                Tincture                   1290
+                                                                Revivify                   348
+                                                                Dried Meat                 126
+                                                                Thief Glove                4400
+                                                                Megalixir                  47600
+
+Nikeah WOB Weapon                                           Nikeah WOB Armor
+    Man Eater                  13420                            Green Beret                2460
+    Stunner                    30960                            Head Band                  1280
+    Darts                      12300                            Dark Gear                  13910
+    Stout Spear                7900                             Magus Hat                  504
+    Hawk Eye                   5880                             Diamond Shld               3220
+                                                                Silk Robe                  708
+
+Nikeah WOB Item                                             Nikeah WOB Relic
+    Fenix Down                 490                              Earrings                   3800
+    Tent                       1344                             Sniper Sight               2790
+    Inviz Edge                 150                              Czarina Ring               2760
+    Sleeping Bag               500                              Pod Bracelet               3800
+    Remedy                     950                              Guard Ring                 5150
+    Warp Stone                 721                              Fairy Ring                 1335
+    Bio Blaster                907
+    Shadow Edge                380
+
+Kohlingen WOB Weapon                                        Kohlingen WOB Armor
+    Epee                       2880                             Gold Shld                  2950
+    Poison Claw                2849                             Aegis Shld                 44460
+    Tonic                      51                               Bandana                    600
+    Water Edge                 440                              Circlet                    6510
+    MithrilBlade               504                              DiamondArmor               11850
+
+Kohlingen WOB Item                                          Jidoor WOB Weapon
+    X-Ether                    9720                             Full Moon                  3100
+    Potion                     372                              Morning Star               3950
+    Revivify                   348                              Shadow Edge                380
+    Sleeping Bag               500                              Mithril Claw               680
+    Eyedrop                    57                               DaVinci Brsh               7560
+                                                                Rune Edge                  7275
+                                                                Kodachi                    1116
+                                                                Bio Blaster                907
+
+Jidoor WOB Armor                                            Jidoor WOB Item
+    Bard's Hat                 3270                             Fenix Down                 490
+    Diamond Vest               11400                            Potion                     372
+    Ninja Gear                 1232                             Elixir                     23800
+    Oath Veil                  10169                            Tincture                   1290
+    Light Robe                 11000                            Eyedrop                    57
+                                                                Tonic                      51
+                                                                Warp Stone                 721
+                                                                AutoCrossbow               252
+
+Jidoor WOB Relic                                            Albrook WOB Item
+    Sniper Sight               2790                             Fenix Down                 490
+    RunningShoes               7909                             Potion                     372
+    Barrier Ring               585                              Bio Blaster                907
+    Guard Ring                 5150                             Flash                      870
+    MithrilGlove               644                              Debilitator                4300
+    Gale Hairpin               8800                             AutoCrossbow               252
+    Back Guard                 5390                             Shadow Edge                380
+    Sneak Ring                 2670                             Super Ball                 23400
+
+Albrook WOB Weapon                                          Albrook WOB Armor
+    Mithril Claw               680                              Diamond Vest               11400
+    Hardened                   5950                             Power Sash                 5850
+    Gold Lance                 9360                             Iron Helmet                1110
+    Scimitar                   42700                            Bandana                    600
+    Illumina                   65535                            Dark Gear                  13910
+    Mithril Pike               919                              Cotton Robe                198
+    Thunder Rod                10920                            Mystery Veil               6655
+    Fire Rod                   14400                            Crystal Mail               17000
+
+Vector Weapon                                               Vector Armor
+    Bolt Edge                  485                              Magus Hat                  504
+    Water Edge                 440                              Mithril Vest               1355
+    Gold Lance                 9360                             Hair Band                  112
+    Flame Sabre                6860                             Iron Armor                 819
+                                                                Dark Hood                  5700
+                                                                Mithril Shld               1452
+                                                                Buckler                    242
+
+Tzen WOB Weapon                                             Tzen WOB Armor
+    Epee                       2880                             Bard's Hat                 3270
+    Enhancer                   10200                            DiamondArmor               11850
+    Doom Darts                 21840                            Head Band                  1280
+    Mithril Pike               919                              Diamond Helm               8960
+                                                                Iron Armor                 819
+                                                                Mithril Vest               1355
+                                                                Tiara                      3000
+                                                                Cotton Robe                198
+
+Tzen WOB Item                                               Tzen WOB Relic
+    Super Ball                 23400                            Earrings                   3800
+    X-Potion                   5100                             Black Belt                 4050
+    Tent                       1344
+    Tincture                   1290
+    Revivify                   348
+    Tonic                      51
+    Antidote                   45
+    Eyedrop                    57
+
+Thamasa WOB Weapon                                          Thamasa WOB Armor
+    Water Edge                 440                              Gold Shld                  2950
+    ThunderBlade               6090                             Kung Fu Suit               295
+    Forged                     1008                             Dark Hood                  5700
+                                                                Mithril Mail               2730
+                                                                Mithril Shld               1452
+
+Thamasa WOB Item                                            Returner's Hideout Item
+    Fenix Down                 490                              Super Ball                 23400
+    Potion                     372                              Tincture                   1290
+    Tent                       1344                             Warp Stone                 721
+    Sleeping Bag               500                              Soft                       168
+    Remedy                     950                              Drill                      2940
+    Warp Stone                 721                              Debilitator                4300
+    Inviz Edge                 150                              Bolt Edge                  485
+    NoiseBlaster               385                              Dried Meat                 126
+
+Maranda WOB Weapon                                          Maranda WOB Armor
+    Shuriken                   29                               Power Sash                 5850
+    Water Edge                 440                              Gold Helmet                3640
+    Kaiser                     990                              Gold Shld                  2950
+    SwordBreaker               16320                            White Dress                2244
+    Ninja Star                 560
+    Fixed Dice                 37500
+
+Gau Father House Vendor                                     Albrook WOB Relic
+    Fenix Down                 490                              Sniper Sight               2790
+    Potion                     372                              Goggles                    535
+    Echo Screen                142                              Fairy Ring                 1335
+    Eyedrop                    57                               Cure Ring                  8480
+    Fire Skean                 565                              White Cape                 3900
+    Smoke Bomb                 267                              True Knight                980
+    Soft                       168
+    Inviz Edge                 150
+
+Narshe WOB Weapon                                           Narshe WOB Armor
+    Poison Claw                2849                             Bard's Hat                 3270
+    Rising Sun                 3115                             Mithril Vest               1355
+    Enhancer                   10200                            Diamond Vest               11400
+    Blizzard                   8750                             Power Sash                 5850
+    Trump                      12350                            Gold Shld                  2950
+    Dried Meat                 126                              White Dress                2244
+
+Narshe WOB Relic                                            Narshe WOB Item
+    Sniper Sight               2790                             Fenix Down                 490
+    Amulet                     5900                             Potion                     372
+    Genji Glove                28200                            Tent                       1344
+                                                                Super Ball                 23400
+                                                                Sleeping Bag               500
+                                                                Remedy                     950
+                                                                Dried Meat                 126
+                                                                Tonic                      51
+
+Thamasa WOB Relic                                           Blackjack Item
+    Earrings                   3800                             Fenix Down                 490
+    Goggles                    535                              Potion                     372
+    Peace Ring                 2340                             Fire Skean                 565
+    Fairy Ring                 1335                             Remedy                     950
+                                                                Eyedrop                    57
+                                                                Antidote                   45
+                                                                Tonic                      51
+                                                                Warp Stone                 721
+
+Figaro Castle WOB (Left) Item                               Albrook WOR Item
+    Potion                     372                              Fenix Down                 490
+    Tent                       1344                             Tent                       1344
+    Tincture                   1290                             Tincture                   1290
+    Revivify                   348                              Revivify                   348
+    Tonic                      51                               Warp Stone                 721
+    Green Cherry               121                              Echo Screen                142
+    Warp Stone                 721                              Green Cherry               121
+    Smoke Bomb                 267                              Antidote                   45
+
+Albrook WOR Weapon                                          Albrook WOR Armor
+    Fire Skean                 565                              Bard's Hat                 3270
+    Rising Sun                 3115                             Mithril Vest               1355
+    Blizzard                   8750                             Coronet                    6400
+    Scimitar                   42700                            White Dress                2244
+    Blossom                    3200                             Gaia Gear                  6600
+    Full Moon                  3100
+    MithrilBlade               504
+    Epee                       2880
+
+Albrook WOR Relic                                           Tzen WOR Weapon
+    Sniper Sight               2790                             Fire Skean                 565
+    Earrings                   3800                             Blossom                    3200
+    Jewel Ring                 1140                             Stout Spear                7900
+    Barrier Ring               585                              Rainbow Brsh               14560
+    True Knight                980                              Soul Sabre                 11200
+    Star Pendant               625                              ThiefKnife                 5460
+    Czarina Ring               2760
+
+Tzen WOR Armor                                              Tzen WOR Item
+    Bard's Hat                 3270                             Shadow Edge                380
+    Green Beret                2460                             Tincture                   1290
+    Magus Hat                  504                              Tent                       1344
+    Plumed Hat                 295                              Sleeping Bag               500
+    Silk Robe                  708                              Antidote                   45
+                                                                Tonic                      51
+                                                                Smoke Bomb                 267
+                                                                Plumed Hat                 295
+
+Tzen WOR Relic                                              Nikeah WOR Weapon
+    Earrings                   3800                             Epee                       2880
+    Wall Ring                  4740                             Poison Claw                2849
+    Amulet                     5900                             Fire Skean                 565
+    Jewel Ring                 1140                             ThunderBlade               6090
+    Peace Ring                 2340                             Kotetsu                    736
+    Black Belt                 4050                             Partisan                   15860
+    Star Pendant               625                              Dice                       5800
+    Cherub Down                6993                             Fire Knuckle               11299
+
+Nikeah WOR Armor                                            Nikeah WOR Item
+    Gold Helmet                3640                             Fenix Down                 490
+    Power Sash                 5850                             Potion                     372
+    Dark Gear                  13910                            Tent                       1344
+    Red Cap                    28750                            Tincture                   1290
+    Gold Armor                 10500                            Elixir                     23800
+                                                                Eyedrop                    57
+                                                                Green Cherry               121
+                                                                Antidote                   45
+
+Nikeah WOR Relic                                            South Figaro WOR Weapon
+    Cure Ring                  8480                             Bolt Edge                  485
+    Amulet                     5900                             Air Lancet                 836
+    Barrier Ring               585                              Poison Rod                 4905
+    DragoonBoots               7290                             Mithril Rod                430
+    Atlas Armlet               5100                             Flail                      1920
+                                                                NoiseBlaster               385
+                                                                RegalCutlass               704
+                                                                Dirk                       175
+
+South Figaro WOR Armor                                      South Figaro WOR Relic
+    Bard's Hat                 3270                             Cherub Down                6993
+    Green Beret                2460                             Amulet                     5900
+    Ninja Gear                 1232                             DragoonBoots               7290
+    Coronet                    6400                             Peace Ring                 2340
+    Crystal Helm               7700                             Black Belt                 4050
+    Circlet                    6510                             RunningShoes               7909
+    Buckler                    242                              Jewel Ring                 1140
+
+South Figaro WOR Item                                       Figaro Castle WOR (Left) Item
+    Fenix Down                 490                              Fenix Down                 490
+    Super Ball                 23400                            Tent                       1344
+    Tent                       1344                             Tonic                      51
+    Tincture                   1290                             Eyedrop                    57
+    Inviz Edge                 150                              Green Cherry               121
+    Sleeping Bag               500                              Shuriken                   29
+    Eyedrop                    57                               Drill                      2940
+
+Kohlingen WOR Weapon                                        Kohlingen WOR Armor
+    Ether                      4450                             Snow Muffler               65535
+    Flame Sabre                6860                             Head Band                  1280
+    Trident                    1870                             Diamond Helm               8960
+                                                                Diamond Shld               3220
+                                                                Heavy Shld                 412
+                                                                Crystal Helm               7700
+                                                                Mithril Mail               2730
+                                                                Leather Hat                55
+
+Kohlingen WOR Item                                          Thamasa WOR Weapon
+    Potion                     372                              Water Edge                 440
+    Tincture                   1290                             Trident                    1870
+    Megalixir                  47600                            Forged                     1008
+    Sleeping Bag               500                              Hawk Eye                   5880
+    Echo Screen                142
+    Antidote                   45
+    Tonic                      51
+    Green Cherry               121
+
+Thamasa WOR Armor                                           Thamasa WOR Item
+    Crystal Helm               7700                             Potion                     372
+    Moogle Suit                12240                            Tent                       1344
+    Diamond Shld               3220                             Tincture                   1290
+    Kung Fu Suit               295                              Warp Stone                 721
+    Dark Gear                  13910                            Sleeping Bag               500
+    Tiger Mask                 2925                             Remedy                     950
+    Tao Robe                   12610
+    Beret                      3710
+
+Thamasa WOR Relic                                           Jidoor WOR Weapon
+    Amulet                     5900                             X-Ether                    9720
+    Goggles                    535                              Strato                     21200
+    RunningShoes               7909                             Aura                       14560
+    Atlas Armlet               5100                             Morning Star               3950
+    Guard Ring                 5150
+
+Jidoor WOR Armor                                            Jidoor WOR Item
+    Green Beret                2460                             Fenix Down                 490
+    Mithril Vest               1355                             Super Ball                 23400
+    Dark Gear                  13910                            Tent                       1344
+    Bandana                    600                              Tincture                   1290
+    Iron Helmet                1110                             Revivify                   348
+    Plumed Hat                 295                              Antidote                   45
+    Mystery Veil               6655                             Echo Screen                142
+                                                                Green Cherry               121
+
+Jidoor WOR Relic                                            Maranda WOR Weapon
+    Wall Ring                  4740                             Boomerang                  3690
+    Earrings                   3800                             Darts                      12300
+    Sniper Sight               2790                             Fire Rod                   14400
+    Jewel Ring                 1140                             Mithril Claw               680
+    RunningShoes               7909                             Ashura                     455
+    Black Belt                 4050
+    Cure Ring                  8480
+    True Knight                980
+
+Maranda WOR Armor                                           Figaro Castle WOB (Right) Item
+    Imp's Armor                13500                            Fenix Down                 490
+    Mithril Helm               2220                             Potion                     372
+    Iron Helmet                1110                             Tent                       1344
+    Heavy Shld                 412                              Tincture                   1290
+    Mithril Shld               1452                             Revivify                   348
+    Hair Band                  112                              Rename Card                12
+                                                                Remedy                     950
+                                                                Water Edge                 440
+
+Figaro Castle WOR (Right) Item                              Phantom Train Item
+    Remedy                     950                              Fenix Down                 490
+    Smoke Bomb                 267                              Potion                     372
+    Potion                     372                              Tent                       1344
+    Tincture                   1290                             Tincture                   1290
+    Revivify                   348                              Revivify                   348
+    Sleeping Bag               500                              Remedy                     950
+    Green Cherry               121                              Echo Screen                142
+    Shuriken                   29                               Antidote                   45
+
+------------------------------------------------------- Coliseum -------------------------------------------------------
+Dirk                                                     Woolly                                                 Graedus*
+MithrilKnife-------------------------------------------Suriander-----------------------------------------------Earrings*
+Guardian                                                Veteran                                             True Knight*
+Air Lancet----------------------------------------------Veteran--------------------------------------------SwordBreaker*
+ThiefKnife                                             Reach Frog                                                 Drill
+Assassin------------------------------------------------Balloon--------------------------------------------Mithril Pike
+Man Eater                                              Dark Side                                             Ninja Gear*
+SwordBreaker--------------------------------------------Cruller----------------------------------------------White Cape*
+Graedus                                                 Sand Ray                                                   Soft*
+ValiantKnife--------------------------------------------Prussian---------------------------------------------Fire Skean*
+MithrilBlade                                           Adamanchyt                                            Aegis Shld*
+RegalCutlass----------------------------------------------Lich-----------------------------------------------Water Edge*
+Rune Edge                                               Cactrot                                               Full Moon*
+Flame Sabre-----------------------------------------------Bomb-----------------------------------------------Safety Bit*
+Blizzard                                                Psychot                                            MetalKnuckle*
+ThunderBlade-------------------------------------------Dark Wind-------------------------------------------RunningShoes*
+Epee                                                    Trixter                                            FakeMustache*
+Break Blade--------------------------------------------Mind Candy------------------------------------------DaVinci Brsh*
+Drainer                                                Wirey Drgn                                             Silk Robe
+Enhancer------------------------------------------------Poppers--------------------------------------------DaVinci Brsh*
+Crystal                                                EarthGuard                                          MetalKnuckle
+Falchion------------------------------------------------General--------------------------------------------Crystal Shld*
+Soul Sabre                                                Garm                                                    Ether*
+Ogre Nix-----------------------------------------------Iron Fist--------------------------------------------------Beads*
+Excalibur                                              StillGoing                                                Remedy
+Scimitar------------------------------------------------Trixter----------------------------------------------Power Sash
+Illumina                                                 Kiwok                                                  Blossom*
+Ragnarok-------------------------------------------------Eland--------------------------------------------------Crystal*
+Atma Weapon                                               Muus                                               Soul Sabre
+Mithril Pike-------------------------------------------SlamDancer--------------------------------------------ThiefKnife*
+Trident                                                 Geckorex                                               Offering*
+Stout Spear----------------------------------------------Dante------------------------------------------------Rune Edge*
+Partisan                                                Crawler                                                Titanium*
+Pearl Lance--------------------------------------------HeavyArmor---------------------------------------------Head Band*
+Gold Lance                                             FossilFang                                               Graedus*
+Aura Lance-----------------------------------------------Slurm-----------------------------------------------Air Anchor*
+Imp Halberd                                            PowerDemon                                           Zephyr Cape*
+Imperial------------------------------------------------Allo Ver---------------------------------------------Bard's Hat*
+Kodachi                                                  Ninja                                              Pearl Lance*
+Blossom-------------------------------------------------Red Wolf-------------------------------------------AutoCrossbow
+Hardened                                                  Garm                                               Air Lancet
+Striker-------------------------------------------------Sky Base-----------------------------------------------Hawk Eye*
+Stunner                                                Sand Horse                                              Falchion
+Ashura-------------------------------------------------Mag Roader------------------------------------------Rainbow Brsh*
+Kotetsu                                                 Were-Rat                                              Silk Robe*
+Forged-------------------------------------------------Vector Pup-------------------------------------------Dragon Horn
+Tempest                                                White Drgn                                           Regal Crown*
+Murasame-------------------------------------------------Aquila-------------------------------------------------Buckler
+Aura                                                    Figaliz                                             Force Armor*
+Strato-------------------------------------------------Vomammoth--------------------------------------------------Beret*
+Sky Render                                             Commander                                              Rune Edge*
+Heal Rod-----------------------------------------------Tomb Thumb---------------------------------------------Dark Hood*
+Mithril Rod                                             Opinicus                                           Czarina Ring*
+Fire Rod-----------------------------------------------Brachosaur--------------------------------------------Bard's Hat*
+Ice Rod                                                 Vulture                                            Thunder Shld*
+Thunder Rod---------------------------------------------Mesosaur-------------------------------------------Diamond Shld
+Poison Rod                                             HadesGigas                                              Offering
+Pearl Rod-----------------------------------------------Luridan------------------------------------------------Earrings*
+Gravity Rod                                            Bounty Man                                              Shuriken
+Punisher-----------------------------------------------HermitCrab------------------------------------------Crystal Shld*
+Magus Rod                                              Coelecite                                            Imp's Armor*
+Chocobo Brsh-------------------------------------------Mag Roader-----------------------------------------------Ice Rod*
+DaVinci Brsh                                             Exoray                                            Sniper Sight
+Magical Brsh-------------------------------------------Dark Force--------------------------------------------Air Lancet*
+Rainbow Brsh                                           White Drgn                                            Red Jacket*
+Shuriken-----------------------------------------------Pm Stalker-------------------------------------------Moogle Suit*
+Ninja Star                                               Vermin                                              Ninja Gear*
+Tack Star-----------------------------------------------Red Wolf--------------------------------------------Break Blade*
+Flail                                                  EarthGuard                                           Imp's Armor*
+Full Moon----------------------------------------------IronHitman------------------------------------------DiamondArmor*
+Morning Star                                             Hazer                                                 Ragnarok
+Boomerang-----------------------------------------------Marshal-----------------------------------------------Wall Ring*
+Rising Sun                                              General                                            MithrilGlove*
+Hawk Eye-----------------------------------------------Pipsqueak-------------------------------------------Diamond Helm
+Bone Club                                               Deep Eye                                               Punisher
+Sniper--------------------------------------------------Rain Man--------------------------------------------Genji Armor
+Wing Edge                                               Vectaur                                                    Tent*
+Cards---------------------------------------------------Dahling-----------------------------------------------Rune Edge*
+Darts                                                   Parasoul                                            Dragon Horn
+Doom Darts---------------------------------------------NeckHunter-----------------------------------------------Eyedrop
+Trump                                                   Chimera                                               Bone Club*
+Dice----------------------------------------------------Harpiai----------------------------------------------Back Guard*
+Fixed Dice                                              Cirpius                                            ThunderBlade*
+MetalKnuckle-------------------------------------------Black Drgn-------------------------------------------Gold Helmet
+Mithril Claw                                           Coelecite                                             Ninja Gear*
+Kaiser--------------------------------------------------Ceritops-------------------------------------------MetalKnuckle*
+Poison Claw                                             Didalos                                                 Goggles*
+Fire Knuckle----------------------------------------------Lich---------------------------------------------NoiseBlaster*
+Dragon Claw                                             Chimera                                             Flame Sabre*
+Tiger Fangs--------------------------------------------Steroidite-------------------------------------------------Trump*
+Buckler                                                 Opinicus                                           Magical Brsh*
+Heavy Shld----------------------------------------------Trixter---------------------------------------------------Tonic
+Mithril Shld                                             Bleary                                                  Kaiser*
+Gold Shld-----------------------------------------------Cactrot----------------------------------------------Poison Rod*
+Aegis Shld                                             HermitCrab                                          DaVinci Brsh*
+Diamond Shld-------------------------------------------Still Life-------------------------------------------Mithril Rod
+Flame Shld                                                Muus                                               Gold Lance*
+Ice Shld-----------------------------------------------Adamanchyt--------------------------------------------Light Robe*
+Thunder Shld                                            Whisper                                               Silk Robe
+Crystal Shld-------------------------------------------Mag Roader--------------------------------------------Safety Bit*
+Genji Shld                                              Samurai                                             Echo Screen
+TortoiseShld-------------------------------------------Over Grunk------------------------------------------Gale Hairpin*
+Cursed Shld                                              Guard                                                  Striker*
+Paladin Shld-------------------------------------------Gilomantis-------------------------------------------------Cards*
+Force Shld                                             Mag Roader                                            Gold Lance*
+Leather Hat-----------------------------------------------Muus---------------------------------------------Mystery Veil*
+Hair Band                                               Luridan                                            Atlas Armlet*
+Plumed Hat----------------------------------------------Geckorex-------------------------------------------Genji Helmet*
+Beret                                                   Mandrake                                            Iron Helmet*
+Magus Hat-----------------------------------------------Samurai--------------------------------------------Genji Helmet*
+Bandana                                                Bloompire                                                Coronet*
+Iron Helmet--------------------------------------------Over-Mind-----------------------------------------------Titanium*
+Coronet                                                 Red Wolf                                           NoiseBlaster*
+Bard's Hat---------------------------------------------ChickenLip-------------------------------------------Genji Glove*
+Green Beret                                               Enuo                                                 Thornlet*
+Head Band------------------------------------------------Kiwok----------------------------------------------White Dress*
+Mithril Helm                                             Woolly                                             Green Beret
+Tiara---------------------------------------------------Uroburos-----------------------------------------------Heal Rod*
+Gold Helmet                                            Brachosaur                                             Full Moon*
+Tiger Mask---------------------------------------------Sewer Rat-----------------------------------------------Ice Shld
+Red Cap                                                Tomb Thumb                                                Potion*
+Mystery Veil--------------------------------------------Retainer---------------------------------------------Red Jacket*
+Circlet                                                 Cephaler                                             Smoke Bomb
+Regal Crown--------------------------------------------Hemophyte------------------------------------------------Ice Rod*
+Diamond Helm                                           Abolisher                                           Fire Knuckle*
+Dark Hood------------------------------------------------Rider----------------------------------------------------Beret*
+Crystal Helm                                            Poplium                                            MetalKnuckle*
+Oath Veil----------------------------------------------Harvester----------------------------------------------Head Band*
+Cat Hood                                               Sea Flower                                           Poison Claw*
+Genji Helmet---------------------------------------------Rhyos---------------------------------------------------Remedy
+Thornlet                                                 Chupon                                               Rage Ring*
+Titanium-----------------------------------------------Primordite----------------------------------------------Magicite*
+LeatherArmor                                           Mag Roader                                             Wall Ring*
+Cotton Robe---------------------------------------------Rhobite----------------------------------------------Rising Sun*
+Kung Fu Suit                                           Toe Cutter                                            Water Edge*
+Iron Armor-----------------------------------------------Rider----------------------------------------------Hyper Wrist*
+Silk Robe                                                 Pug                                              Diamond Helm*
+Mithril Vest--------------------------------------------Psychot----------------------------------------------Gold Lance*
+Ninja Gear                                             1st Class                                           RunningShoes
+White Dress--------------------------------------------CrassHoppr--------------------------------------------Force Shld*
+Mithril Mail                                            Mesosaur                                             Fenix Down*
+Gaia Gear-------------------------------------------------Ing---------------------------------------------------Bandana*
+Mirage Vest                                            Land Worm                                                  Ether*
+Gold Armor---------------------------------------------1st Class-----------------------------------------------Shuriken*
+Power Sash                                                 Io                                                  Exp. Egg*
+Light Robe-----------------------------------------------Humpty---------------------------------------------------Flash*
+Diamond Vest                                           Primordite                                             Wing Edge*
+Red Jacket-----------------------------------------------Slurm-----------------------------------------------Safety Bit*
+Force Armor                                            Steroidite                                                Strato*
+DiamondArmor-------------------------------------------Bloompire--------------------------------------------Flame Sabre*
+Dark Gear                                                Hornet                                                  Kaiser
+Tao Robe-----------------------------------------------Lethal Wpn--------------------------------------------Soul Sabre*
+Crystal Mail                                            Cactrot                                              Ninja Gear*
+Czarina Gown--------------------------------------------Punisher---------------------------------------------Aegis Shld*
+Genji Armor                                             Red Fang                                               Murasame*
+Imp's Armor---------------------------------------------Figaliz--------------------------------------------Crystal Mail*
+Minerva                                                 Gobbler                                             Hyper Wrist
+Tabby Suit----------------------------------------------Trilium----------------------------------------------Bard's Hat*
+Chocobo Suit                                             Woolly                                            MithrilGlove*
+Moogle Suit--------------------------------------------Steroidite--------------------------------------------Tintinabar*
+Nutkin Suit                                            Boxed Set                                                  Ether*
+BehemothSuit--------------------------------------------Lunaris-------------------------------------------------Bandana*
+Snow Muffler                                            Scorpion                                           Diamond Vest*
+NoiseBlaster-------------------------------------------Wart Puck---------------------------------------------Light Robe*
+Bio Blaster                                            Tyranosaur                                                 Flail
+Flash---------------------------------------------------Mesosaur--------------------------------------------Dragon Claw*
+Chain Saw                                               General                                             Dragon Claw*
+Debilitator--------------------------------------------Lethal Wpn-------------------------------------------Dragon Claw*
+Drill                                                  HadesGigas                                           Crystal Orb
+Air Anchor----------------------------------------------Veteran---------------------------------------------Imp Halberd
+AutoCrossbow                                            Telstar                                             Dragon Horn*
+Fire Skean---------------------------------------------Dark Wind---------------------------------------------------Aura*
+Water Edge                                             Steroidite                                          Star Pendant*
+Bolt Edge----------------------------------------------Sky Armor--------------------------------------------Flame Sabre
+Inviz Edge                                             Harvester                                           Gale Hairpin*
+Shadow Edge--------------------------------------------Coelecite----------------------------------------------Magus Hat*
+Goggles                                                TumbleWeed                                               Stunner*
+Star Pendant--------------------------------------------Sand Ray--------------------------------------------Cherub Down
+Peace Ring                                             Wirey Drgn                                           Merit Award*
+Amulet--------------------------------------------------Luridan----------------------------------------------Ninja Gear*
+White Cape                                               Slurm                                              Muscle Belt*
+Jewel Ring----------------------------------------------Gigantos--------------------------------------------------Beret*
+Fairy Ring                                             Brachosaur                                          Diamond Shld*
+Barrier Ring--------------------------------------------Veteran---------------------------------------------Genji Glove
+MithrilGlove                                           NeckHunter                                          Mystery Veil*
+Guard Ring----------------------------------------------Exocite--------------------------------------------Diamond Shld*
+RunningShoes                                            Vulture                                                X-Potion*
+Wall Ring----------------------------------------------Still Life-------------------------------------------Nutkin Suit*
+Cherub Down                                            SlamDancer                                          DragoonBoots
+Cure Ring-----------------------------------------------Wild Rat-------------------------------------------Chocobo Suit*
+True Knight                                            StillGoing                                           Stout Spear*
+DragoonBoots--------------------------------------------Brontaur----------------------------------------------Wall Ring*
+Zephyr Cape                                             Crawler                                             Regal Crown*
+Czarina Ring-------------------------------------------Over-Mind--------------------------------------------Rename Card*
+Cursed Ring                                              Guard                                                  X-Ether*
+Earrings-----------------------------------------------StillGoing------------------------------------------FakeMustache*
+Atlas Armlet                                           Stray Cat                                             Air Anchor*
+Blizzard Orb--------------------------------------------Sand Ray---------------------------------------------------Dirk*
+Rage Ring                                               Cactrot                                              Tintinabar*
+Sneak Ring----------------------------------------------Spectre----------------------------------------------Aura Lance*
+Pod Bracelet                                           Reach Frog                                                 Drill
+Hero Ring----------------------------------------------Bloompire-----------------------------------------------Blizzard*
+Ribbon                                                 Vectagoyle                                            Aura Lance*
+Muscle Belt--------------------------------------------White Drgn------------------------------------------NoiseBlaster*
+Crystal Orb                                            Gilomantis                                             Tack Star*
+Gold Hairpin--------------------------------------------Intangir--------------------------------------------------Tiara*
+Economizer                                               Rhinox                                                Punisher*
+Thief Glove---------------------------------------------Brontaur---------------------------------------------Tabby Suit*
+Gauntlet                                                Punisher                                            Rename Card*
+Genji Glove---------------------------------------------Veteran----------------------------------------------Light Robe*
+Hyper Wrist                                            Anguiform                                             White Cape*
+Offering-----------------------------------------------Bloompire-------------------------------------------ThunderBlade*
+Beads                                                  Still Life                                              Ogre Nix*
+Black Belt-----------------------------------------------Beakor---------------------------------------------Merit Award*
+Coin Toss                                                Barb-e                                              Light Robe*
+FakeMustache-------------------------------------------Siegfried-------------------------------------------Blizzard Orb*
+Gem Box                                                Magic Urn                                                Red Cap*
+Dragon Horn---------------------------------------------Red Wolf------------------------------------------------Gem Box*
+Merit Award                                               Enuo                                               Air Lancet*
+Memento Ring--------------------------------------------Scullion-----------------------------------------------Titanium*
+Safety Bit                                              Were-Rat                                               Tao Robe*
+Relic Ring----------------------------------------------Were-Rat-------------------------------------------TortoiseShld*
+Moogle Charm                                            Exocite                                               Full Moon*
+Charm Bangle---------------------------------------------Wyvern---------------------------------------------Hyper Wrist*
+Marvel Shoes                                           Pipsqueak                                            Force Armor*
+Back Guard---------------------------------------------Reach Frog------------------------------------------ThunderBlade*
+Gale Hairpin                                             Wizard                                            ThunderBlade*
+Sniper Sight-------------------------------------------Pipsqueak---------------------------------------------Water Edge*
+Exp. Egg                                                Buffalax                                            Tiger Fangs*
+Tintinabar-----------------------------------------------Exoray----------------------------------------------Black Belt*
+Sprint Shoes                                            Pterodon                                             Water Edge*
+Rename Card---------------------------------------------Luridan---------------------------------------------Hyper Wrist
+Tonic                                                   Soldier                                              Doom Darts*
+Potion--------------------------------------------------Apparite-------------------------------------------MithrilBlade
+X-Potion                                                Punisher                                           DaVinci Brsh*
+Tincture------------------------------------------------Areneid--------------------------------------------DiamondArmor
+Ether                                                   Brawler                                             Hyper Wrist*
+X-Ether------------------------------------------------Gabbldegak------------------------------------------DiamondArmor*
+Elixir                                                 Mag Roader                                            Genji Shld*
+Megalixir----------------------------------------------Hipocampus-------------------------------------------------Ether*
+Fenix Down                                              Didalos                                                Enhancer*
+Revivify-----------------------------------------------Tap Dancer--------------------------------------------Black Belt*
+Antidote                                               Suriander                                             Warp Stone*
+Eyedrop------------------------------------------------Commander-------------------------------------------Fire Knuckle
+Soft                                                    Chimera                                             Cursed Ring*
+Remedy---------------------------------------------------Chaser---------------------------------------------Moogle Suit*
+Sleeping Bag                                            Red Wolf                                               Magicite*
+Tent---------------------------------------------------Abolisher-------------------------------------------Marvel Shoes*
+Green Cherry                                           Allosaurus                                                Elixir*
+Magicite------------------------------------------------Spek Tor------------------------------------------------Blossom
+Super Ball                                               Aspik                                                 Partisan*
+Echo Screen---------------------------------------------Spek Tor----------------------------------------------Rage Ring
+Smoke Bomb                                               Wyvern                                             White Dress
+Warp Stone-----------------------------------------------Dante------------------------------------------------Pearl Rod
+Dried Meat                                             Chaos Drgn                                             Head Band*
+Empty--------------------------------------------------Abolisher---------------------------------------------Fairy Ring
+
+* = Hidden Reward

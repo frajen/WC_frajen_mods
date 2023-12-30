@@ -1,0 +1,6 @@
+{
+  "name": "Link",
+  "author": "FEOK",
+  "group": "LegendOfZelda",
+  "description": "sprite, sprite palette from Sprite DB 1.2, 06/28/2011, https://www.ff6hacking.com/forums/thread-1031.html"
+}

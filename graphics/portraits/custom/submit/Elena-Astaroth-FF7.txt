@@ -1,0 +1,6 @@
+{
+  "name": "Elena",
+  "author": "Astaroth",
+  "group": "FF7",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

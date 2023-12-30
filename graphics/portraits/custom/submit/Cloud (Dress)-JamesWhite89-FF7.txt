@@ -1,0 +1,6 @@
+{
+  "name": "Cloud (Dress)",
+  "author": "JamesWhite89",
+  "group": "FF7",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

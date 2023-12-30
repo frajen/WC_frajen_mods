@@ -1,0 +1,7 @@
+{
+  "name": "Eggman",
+  "author": "JamesWhite89",
+  "group": "Sonic",
+  "description": "sprite, sprite palette by JamesWhite89 (Can use palette 3)"
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Hojo",
+  "author": "LoneRedMage",
+  "group": "FF7",
+  "description": "sprite, sprite palette from https://www.ff6hacking.com/forums/thread-4057.html"
+}

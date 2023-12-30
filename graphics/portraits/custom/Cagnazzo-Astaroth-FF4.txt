@@ -1,0 +1,6 @@
+{
+  "name": "Cagnazzo",
+  "author": "Astaroth",
+  "group": "FF4",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

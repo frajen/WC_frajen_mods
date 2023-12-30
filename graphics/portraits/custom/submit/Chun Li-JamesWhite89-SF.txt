@@ -1,0 +1,6 @@
+{
+  "name": "Chun Li",
+  "author": "JamesWhite89",
+  "group": "SF",
+  "description": "portrait ripped from SF2 by JamesWhite89"
+}

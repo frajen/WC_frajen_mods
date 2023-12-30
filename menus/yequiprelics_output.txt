@@ -1,0 +1,138 @@
+[0x039614 - 0x03966b] "Layout switching"
+  039614: 0x20 0x0c 0x96                | JSR $960c
+  039617: 0xe6 0x3a                     | INC $3a
+  039619: 0xa9 0x2c                     | LDA #$2c
+  03961b: 0x85 0x29                     | STA $29
+  03961d: 0x60                          | RTS
+  03961e: 0x20 0x0c 0x96                | JSR $960c
+  039621: 0x20 0x4e 0x90                | JSR $904e
+  039624: 0x20 0x56 0x8e                | JSR $8e56
+  039627: 0xa5 0x08                     | LDA $08
+  039629: 0x10 0x0b                     | BPL $0b
+  03962b: 0x20 0xb2 0x0e                | JSR $0eb2
+  03962e: 0x7b                          | TDC
+  03962f: 0xa5 0x4b                     | LDA $4b
+  039631: 0x0a                          | ASL
+  039632: 0xaa                          | TAX
+  039633: 0x7c 0x6c 0x96                | JMP ($966c, X)
+C3/9636:                                |
+  039636: 0xa5 0x09                     | LDA $09
+  039638: 0x10 0x0d                     | BPL $0d
+  03963a: 0x20 0xa9 0x0e                | JSR $0ea9
+  03963d: 0x20 0x10 0x91                | JSR $9110
+  039640: 0xa9 0x04                     | LDA #$04
+  039642: 0x85 0x27                     | STA $27
+  039644: 0x64 0x26                     | STZ $26
+  039646: 0x60                          | RTS
+C3/9647:                                |
+  039647: 0x0a                          | ASL
+  039648: 0x10 0x0a                     | BPL $0a
+  03964a: 0x20 0xb2 0x0e                | JSR $0eb2
+  03964d: 0xa9 0x58                     | LDA #$58
+  03964f: 0x85 0x26                     | STA $26
+  039651: 0xe6 0x25                     | INC $25
+  039653: 0x60                          | RTS
+  039654: 0xa9 0x35                     | LDA #$35
+  039656: 0x85 0xe0                     | STA $e0
+  039658: 0x4c 0x22 0x20                | JMP $2022
+  03965b: 0xa0 0x09 0xa3                | LDY #$a309
+  03965e: 0x80 0x08                     | BRA $08
+  039660: 0xa0 0x11 0xa3                | LDY #$a311
+  039663: 0x80 0x03                     | BRA $03
+  039665: 0xa0 0xea 0xa2                | LDY #$a2ea
+  039668: 0x4c 0xf9 0x02                | JMP $02f9
+  03966b: 0x60                          | RTS
+[0x039672 - 0x039673] "EMPTY"
+  039672: 0x9a                          |
+  039673: 0x96                          |
+[0x039677 - 0x03967a] "Draw blue EQUIP"
+  039677: 0x20 0x5b 0x96                | JSR $965b
+  03967a: 0x20                          |
+[0x039691 - 0x0396a6] "Handle RMOVE selection in Equip"
+  039691: 0x20 0x60 0x96                | JSR $9660
+  039694: 0x20 0x7a 0x96                | JSR $967a
+  039697: 0xe6 0x26                     | INC $26
+  039699: 0x60                          | RTS
+  03969a: 0x20 0xa8 0x96                | JSR $96a8
+  03969d: 0x80 0xe9                     | BRA $e9
+  03969f: 0xa9 0x35                     | LDA #$35
+  0396a1: 0x85 0x26                     | STA $26
+  0396a3: 0x64 0x27                     | STZ $27
+  0396a5: 0xc6 0x25                     | DEC $25
+[0x03988c - 0x03990e] "Handle selection of gear slot to fill"
+  03988c: 0x10 0x21                     | BPL $21
+  03988e: 0x20 0xb2 0x0e                | JSR $0eb2
+  039891: 0xa5 0x4e                     | LDA $4e
+  039893: 0x85 0x5f                     | STA $5f
+  039895: 0xa2 0x57 0x55                | LDX #$5557
+  039898: 0x86 0x26                     | STX $26
+  03989a: 0x20 0x59 0x9b                | JSR $9b59
+  03989d: 0x20 0x50 0xa1                | JSR $a150
+  0398a0: 0x20 0xeb 0x9a                | JSR $9aeb
+  0398a3: 0x20 0x33 0x92                | JSR $9233
+  0398a6: 0x20 0x15 0x6a                | JSR $6a15
+  0398a9: 0x20 0x68 0x13                | JSR $1368
+  0398ac: 0x4c 0xac 0x9c                | JMP $9cac
+  0398af: 0xa5 0x09                     | LDA $09
+  0398b1: 0x10 0x0d                     | BPL $0d
+  0398b3: 0x20 0xa9 0x0e                | JSR $0ea9
+  0398b6: 0xa9 0x36                     | LDA #$36
+  0398b8: 0x85 0x26                     | STA $26
+  0398ba: 0x20 0x50 0x8e                | JSR $8e50
+  0398bd: 0x4c 0x59 0x8e                | JMP $8e59
+  0398c0: 0x0a                          | ASL
+  0398c1: 0x10 0x03                     | BPL $03
+  0398c3: 0x4c 0x4a 0x96                | JMP $964a
+  0398c6: 0xa5 0x26                     | LDA $26
+  0398c8: 0x69 0x29                     | ADC #$29
+  0398ca: 0x4c 0x56 0x96                | JMP $9656
+  0398cd: 0x20 0x72 0x8e                | JSR $8e72
+  0398d0: 0xa5 0x08                     | LDA $08
+  0398d2: 0x10 0xdb                     | BPL $db
+  0398d4: 0x20 0xb2 0x0e                | JSR $0eb2
+  0398d7: 0x20 0xf2 0x93                | JSR $93f2
+  0398da: 0xc2 0x21                     | REP $21
+  0398dc: 0x98                          | TYA
+  0398dd: 0xe2 0x20                     | SEP $20
+  0398df: 0x65 0x4b                     | ADC $4b
+  0398e1: 0xa8                          | TAY
+  0398e2: 0xb9 0x1f 0x00                | LDA $001f
+  0398e5: 0x20 0x5e 0x9d                | JSR $9d5e
+  0398e8: 0xa9 0xff                     | LDA #$ff
+  0398ea: 0x99 0x1f 0x00                | STA $001f
+  0398ed: 0x20 0x1b 0x91                | JSR $911b
+  0398f0: 0x80 0xbd                     | BRA $bd
+  0398f2: 0xa5 0x09                     | LDA $09
+  0398f4: 0x0a                          | ASL
+  0398f5: 0x10 0x14                     | BPL $14
+  0398f7: 0x20 0xb2 0x0e                | JSR $0eb2
+  0398fa: 0x20 0x5f 0x1e                | JSR $1e5f
+  0398fd: 0xb0 0x0a                     | BCS $0a
+  0398ff: 0x20 0xeb 0x9e                | JSR $9eeb
+  039902: 0xa5 0x99                     | LDA $99
+  039904: 0xd0 0x03                     | BNE $03
+  039906: 0x20 0x9f 0x96                | JSR $969f
+  039909: 0x64 0x08                     | STZ $08
+  03990b: 0x4c 0xe6 0x9e                | JMP $9ee6
+  03990e: 0xea                          | NOP
+[0x039e80 - 0x039e83] "Draw blue EQUIP"
+  039e80: 0x20 0x5b 0x96                | JSR $965b
+  039e83: 0x20                          |
+[0x039e8e - 0x039e91] "Draw blue REMOVE"
+  039e8e: 0x20 0x60 0x96                | JSR $9660
+  039e91: 0x20                          |
+[0x039edc - 0x039edf] "Plan Reequip pos"
+  039edc: 0x20 0xf2 0x98                | JSR $98f2
+  039edf: 0xa9                          |
+[0x039f1c - 0x039f1f] "Erase top text"
+  039f1c: 0x20 0x65 0x96                | JSR $9665
+  039f1f: 0xa0                          |
+[0x039fde - 0x039fe1] "Draw blue EQUIP"
+  039fde: 0x20 0x5b 0x96                | JSR $965b
+  039fe1: 0x20                          |
+[0x03a047 - 0x03a04a] "Plan Reequip pos"
+  03a047: 0x20 0xf2 0x98                | JSR $98f2
+  03a04a: 0xa9                          |
+[0x03a146 - 0x03a149] "Plan Reequip pos"
+  03a146: 0x20 0xf2 0x98                | JSR $98f2
+  03a149: 0xa9                          |

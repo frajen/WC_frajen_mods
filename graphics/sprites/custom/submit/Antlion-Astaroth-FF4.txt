@@ -1,0 +1,6 @@
+{
+  "name": "Antlion",
+  "author": "Astaroth",
+  "group": "FF4",
+  "description": "sprite, sprite palette from https://www.ff6hacking.com/forums/thread-1855.html"
+}

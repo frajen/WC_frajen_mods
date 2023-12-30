@@ -1,0 +1,6 @@
+{
+  "name": "Cagnazzo",
+  "author": "Astaroth",
+  "group": "FF4",
+  "description": "Kainazzo in FF2 US. sprite, sprite palette from Sprite DB 1.2"
+}

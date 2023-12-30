@@ -1,0 +1,6 @@
+{
+  "name": "Mini",
+  "author": "JamesWhite89",
+  "group": "FF",
+  "description": "sprite, sprite palette from Sprite DB 1.2, 04/28/2012, https://www.ff6hacking.com/forums/thread-1612.html"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Chupon",
+  "author": "Poco Loco",
+  "group": "FF6",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

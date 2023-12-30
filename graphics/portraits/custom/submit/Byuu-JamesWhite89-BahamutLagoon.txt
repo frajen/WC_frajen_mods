@@ -1,0 +1,6 @@
+{
+  "name": "Byuu",
+  "author": "JamesWhite89",
+  "group": "BahamutLagoon",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

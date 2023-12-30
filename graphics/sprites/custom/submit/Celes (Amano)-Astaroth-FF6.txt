@@ -1,0 +1,6 @@
+{
+  "name": "Celes (Amano)",
+  "author": "Astaroth",
+  "group": "FF6",
+  "description": "sprite, sprite palette from Sprite DB 1.2"
+}

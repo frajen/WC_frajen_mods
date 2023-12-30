@@ -1,0 +1,6 @@
+{
+  "name": "Cactuar",
+  "author": "JamesWhite89",
+  "group": "FF",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

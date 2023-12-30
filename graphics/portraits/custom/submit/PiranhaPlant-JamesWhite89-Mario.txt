@@ -1,0 +1,6 @@
+{
+  "name": "Pirahna Plant",
+  "author": "JamesWhite89",
+  "group": "Mario",
+  "description": "portrait made and referenced from Super Smash Bros. Ultimate by JamesWhite89"
+}

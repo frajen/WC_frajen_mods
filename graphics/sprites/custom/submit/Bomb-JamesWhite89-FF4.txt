@@ -1,0 +1,6 @@
+{
+  "name": "Bomb",
+  "author": "JamesWhite89",
+  "group": "FF4",
+  "description": "sprite, sprite palette from Sprite DB 1.2"
+}

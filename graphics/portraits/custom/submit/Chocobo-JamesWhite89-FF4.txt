@@ -1,0 +1,6 @@
+{
+  "name": "Chocobo",
+  "author": "JamesWhite89",
+  "group": "FF4",
+  "description": "portrait, portrait palette from Beyond Chaos"
+}

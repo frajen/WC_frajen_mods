@@ -1,0 +1,6 @@
+{
+  "name": "Mario",
+  "author": "Badass",
+  "group": "Mario",
+  "description": "sprite, sprite palette from Sprite DB 1.2, 05-27-2013, https://www.ff6hacking.com/forums/thread-2174.html"
+}

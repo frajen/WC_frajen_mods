@@ -1,0 +1,206 @@
+Version   1.2.2
+Generated 2023-04-25 01:05:13
+Input     f.smc
+Output    f_wc_lqecxu0xoa7u.smc
+Log       f_wc_lqecxu0xoa7u.txt
+Seed      lqecxu0xoa7u
+Flags     -cgdepth 2 -drloc shuffle -stloc shuffle
+Hash      Wolf, Scholar, Returner, Returner
+
+--------------------------------------------------------- Game ---------------------------------------------------------
+
+Settings
+    Mode                       Open World
+    Seed                       lqecxu0xoa7u
+    Spoiler Log                False
+
+------------------------------------------------------ Objectives ------------------------------------------------------
+
+-------------------------------------------------------- Party ---------------------------------------------------------
+
+Starting Party                                              Characters
+    Start Character            None                             Start Average Level        False
+    Start Character            None                             Start Level                3
+    Start Character            None                             Start Naked                False
+    Start Character            None                             Equipable Umaro            False
+                                                                Character Stats            100-100%
+SwdTechs                                                        Swap initial stats         False
+    Fast SwdTech               False                            Start w/ultimates          False
+    Everyone Learns            False                            Force Start Lvls           False
+                                                                Exclude from Avg Calc      False
+Blitzes
+    Bum Rush Last              False                        Commands
+    Everyone Learns            False                            Morph                      Morph
+                                                                Steal                      Steal
+Lores                                                           SwdTech                    SwdTech
+    Start Lores                Original                         Throw                      Throw
+    MP                         Original                         Tools                      Tools
+    Everyone Learns            False                            Blitz                      Blitz
+    L.x Spells                 Original                         Runic                      Runic
+                                                                Lore                       Lore
+Rages                                                           Sketch                     Sketch
+    Start Rages                Original                         Slot                       Slot
+    No Leap                    False                            Dance                      Dance
+    No Charm                   False                            Rage                       Rage
+    Start Rages Tiered         False                            Leap                       Leap
+
+Dances                                                          Shuffle Commands           False
+    Start Dances               None                             Random Exclude             None
+    Shuffle Abilities          False                            Random Exclude             None
+    Display Abilities          False                            Random Exclude             None
+    No Stumble                 False                            Random Exclude             None
+    Everyone Learns            False                            Random Exclude             None
+                                                                Random Exclude             None
+Steal
+    Chances                    Original
+
+Sketch/Control
+    Sketch Ability             Original
+    Sketch Accuracy            Original
+    Sketch Stats               Original
+
+    Control Ability            Original
+    Control Stats              Original
+
+-------------------------------------------------------- Battle --------------------------------------------------------
+
+Experience, Magic Points, Gold                              Scaling
+    Experience Multiplier      1                                Level Scaling              None
+    Magic Points Multiplier    1                                HP/MP Scaling              None
+    Gold Multiplier            1                                Exp/GP Scaling             None
+    No Exp Party Divide        False                            Ability Scaling            None
+                                                                Max Scale Level            99
+Bosses                                                          Scale Eight Dragons        False
+    Boss Battles               Original                         Scale Final Battles        False
+    Dragons                    Shuffle
+    Statues                    Shuffle                      Encounters
+    Shuffle/Random Phunbaba 3  False                            Random Encounters          Original
+    Normalize & Distort Stats  False                            Fixed Encounters           Original
+    Boss Experience            False                            Escapable                  Original
+    No Undead                  False
+    Marshal Keep Lobos         False
+    Fast Enemies               False
+    Easy Boss Buff             False
+
+Boss AI
+    Doom Gaze No Escape        False
+    Wrexsoul No Zinger         False
+    MagiMaster No Ultima       False
+    Chadarnook More Demon      False
+
+-------------------------------------------------------- Magic ---------------------------------------------------------
+
+Espers                                                      Natural Magic
+    Starting Espers            0-0                              Natural Magic              None
+    Spells                     Original                         Randomize Levels           False
+    Bonuses                    Original                         Natural Magic              None
+    MP                         Original                         Randomize Levels           False
+    Equipable                  All                              Menu Indicator             False
+    Multi Summon               False
+
+Misc. Magic
+    MP                         Original
+
+-------------------------------------------------------- Items ---------------------------------------------------------
+
+Starting Gold/Items                                         Shops
+    Start Gold                 0                                Inventory                  Original
+    Start Moogle Charms        0                                Price                      Original
+    Start Sprint Shoes         0                                Sell Fraction              1/2
+    Start Warp Stones          0                                Dried Meat                 1
+    Start Fenix Downs          0                                No Priceless Items         False
+    Start Tools                0                                No Breakable Rods          False
+                                                                Expensive Rods             False
+Items                                                           No Elemental Shields       False
+    Equipable                  Original                         No Super Balls             False
+    Equipable Relics           Original                         Expensive Balls            False
+    Cursed Shield Battles      256-256                          No Exp. Eggs               False
+    Moogle Charm All           False                            No Illuminas               False
+    SwdTech Runic All          False                            No good items              False
+    Stronger Atma Weapon       False                            Max shop count             8
+    Ultimate Items             False
+    Teach Spells               None                         Chests
+    Stat Boosts                None                             Contents                   Original
+    Random Drop/Steal %        0                                Monsters-In-A-Box Shuffled False
+    Random Drop/Steal Var      0
+    Adjusted item desc         False
+
+------------------------------------------------------- Graphics -------------------------------------------------------
+
+Sprite Palettes                                             Character Customization
+    Palette 0                  Original 0                       TERRA  -> TERRA            Terra
+    Palette 1                  Original 1                                                  Terra
+    Palette 2                  Original 2                                                  Palette 2
+    Palette 3                  Original 3                       LOCKE  -> LOCKE            Locke
+    Palette 4                  Original 4                                                  Locke
+    Palette 5                  Original 5                                                  Palette 1
+    Palette 6                  Original 6                       CYAN   -> CYAN             Cyan
+                                                                                           Cyan
+Other Portraits & Sprites                                                                  Palette 4
+    Soldier                    Soldier                          SHADOW -> SHADOW           Shadow
+                               Palette 1                                                   Shadow
+    Imp                        Imp                                                         Palette 4
+                               Imp                              EDGAR  -> EDGAR            Edgar
+                               Palette 0                                                   Edgar
+    Esper Terra                General Leo                                                 Palette 0
+                               Palette 6                        SABIN  -> SABIN            Sabin
+    Merchant                   Banon-Duncan                                                Sabin
+                               Palette 1                                                   Palette 0
+    Ghost                      Esper Terra                      CELES  -> CELES            Celes
+                               Palette 0                                                   Celes
+    Kefka                      Merchant                                                    Palette 0
+                               Palette 3                        STRAGO -> STRAGO           Strago
+                                                                                           Strago
+Other Graphics                                                                             Palette 3
+    Remove Flashes             Original                         RELM   -> RELM             Relm
+    World Minimap              Original                                                    Relm
+                                                                                           Palette 3
+                                                                SETZER -> SETZER           Setzer
+                                                                                           Setzer
+                                                                                           Palette 4
+                                                                MOG    -> MOG              Mog
+                                                                                           Mog
+                                                                                           Palette 5
+                                                                GAU    -> GAU              Gau
+                                                                                           Gau
+                                                                                           Palette 3
+                                                                GOGO   -> GOGO             Gogo
+                                                                                           Gogo
+                                                                                           Palette 3
+                                                                UMARO  -> UMARO            Umaro
+                                                                                           Umaro
+                                                                                           Palette 5
+
+-------------------------------------------------------- Other ---------------------------------------------------------
+
+Coliseum                                                    Challenges
+    Opponents                  Original                         No Moogle Charms           False
+    Rewards                    Original                         No Exp Eggs                False
+    Rewards Visible            F                                No Illuminas               False
+    No Exp. Eggs               False                            No Sprint Shoes            False
+    No Illuminas               False                            No Free Paladin Shields    False
+                                                                No Free Characters/Espers  False
+Auction House                                                   Permadeath                 False
+    Randomize Items            False                            Ultima                     Original
+    No Chocobo/Airship         False                            Remove Learnable Spells    None
+    Door Esper Hint            False                            1 Of Logic                 False
+                                                                Door rando                 False
+Misc.
+    Movement                   AUTO_SPRINT                  Bug Fixes
+    Original Name Display      False                            Sketch                     False
+    Random RNG                 False                            Evade                      False
+    Random Clock               False                            Vanish/Doom                False
+    Scan All                   False                            Retort                     False
+    Warp All                   False                            Jump                       False
+    Event Timers               Original                         Boss Skip                  False
+    Y NPC                      None                             Enemy Damage Counter       False
+    NPC Tips                   False                            Capture                    False
+    Shop Y Details             False
+    Improved Item Display      False
+    More Warp                  False
+    Location Tiering           False
+    Hold Anything              False
+
+----------------------------------------------------- Door Rando:  -----------------------------------------------------
+Forced connections:
+Map:
